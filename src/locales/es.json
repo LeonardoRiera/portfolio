@@ -1,0 +1,12 @@
+{
+    "navbar": {
+      "about": "Sobre Mí",
+      "projects": "Proyectos",
+      "resume": "CV"
+      
+    },
+
+    "header": {
+      "titulo": "Bienvenidos a mi Portfolio"
+    }
+}

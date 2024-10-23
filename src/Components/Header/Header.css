@@ -1,0 +1,9 @@
+.HeaderContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vmax;
+}
+
+.TituloPrincipal {
+    color: black;
+}

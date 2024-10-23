@@ -1,0 +1,47 @@
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Cambiamos el cursor para indicar que es clickeable */
+    position: relative; /* Para posicionar la bolita dentro del contenedor */
+    gap: 0.6vmax;
+    justify-self: center;
+}
+  
+.toggle {
+    width: 60px; /* Ancho del toggle */
+    height: 30px; /* Alto del toggle */
+    background-color: #ccc; /* Color de fondo del toggle */
+    border-radius: 30px; /* Bordes redondeados */
+    display: flex;
+    align-items: center;
+    position: relative; /* Posicionamiento para la bolita */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+  
+.toggle-ball {
+    width: 26px; /* Ancho de la bolita */
+    height: 26px; /* Alto de la bolita */
+    background-color: white; /* Color de la bolita */
+    border-radius: 50%; /* Hacemos la bolita redonda */
+    position: absolute; /* Posición absoluta para mover la bolita */
+    top: 2px; /* Ajuste vertical */
+    left: 2px; /* Ajuste horizontal */
+    transition: transform 0.3s ease; /* Transición suave para el movimiento */
+}
+  
+/* Estilo cuando el toggle está activo */
+.toggle.active {
+    background-color: #4caf50; /* Color de fondo cuando está activado */
+}
+  
+.toggle.active .toggle-ball {
+    transform: translateX(30px); /* Mueve la bolita a la derecha */
+}
+  
+.toggle-label {
+    margin-left: 8px; /* Espaciado a la izquierda de las etiquetas */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+  

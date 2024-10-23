@@ -1,0 +1,12 @@
+{
+    "navbar": {
+      "about": "About Me",
+      "projects": "Projects",
+      "resume": "Resume"
+      
+    },
+
+    "header": {
+      "titulo": "Welcome to my Portfolio"
+    }
+}
