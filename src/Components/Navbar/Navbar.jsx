@@ -14,9 +14,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Portfolio</a>
+        <a className="navbar-brand principalNavbar" href="#">Portfolio</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -25,13 +25,13 @@ const Navbar = () => {
 
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">{t('navbar.about')}</a>
+              <a className="nav-link linksnavbar" aria-current="page" href="#">{t('navbar.about')}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">{t('navbar.projects')}</a>
+              <a className="nav-link linksnavbar" href="#">{t('navbar.projects')}</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">{t('navbar.resume')}</a>
+            <li className="nav-item linkBoton">
+              <a className="nav-link linksnavbar" href="#"><i class="bi bi-file-earmark-arrow-down"></i> {t('navbar.resume')}</a>
             </li>
           </ul>
           

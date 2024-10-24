@@ -1,4 +1,27 @@
+.navbar {
+    background-color: black;
+    border-bottom: #5bff6e solid 2px;
+}
 
+
+.principalNavbar {
+    font-family: "Timmana", sans-serif;
+    color: rgb(129, 255, 133);
+    font-size: 1.5vmax;
+}
+
+.linkBoton {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksnavbar {
+    font-family: "Timmana", sans-serif;
+    color: rgb(129, 255, 133);
+    font-size: 1.5vmax;
+}
 .toggle-container {
     display: flex;
     align-items: center;
@@ -41,7 +64,8 @@
   
 .toggle-label {
     margin-left: 8px; /* Espaciado a la izquierda de las etiquetas */
-    font-size: 14px; /* Tamaño de fuente */
-    color: #333; /* Color del texto */
+    font-size: 1.5vmax; /* Tamaño de fuente */
+    color: #5bff6e; /* Color del texto */
+    font-family: "Timmana", sans-serif;
 }
   
