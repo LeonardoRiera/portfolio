@@ -1,9 +1,117 @@
+/* Contenedor principal */
 .HeaderContainer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding-top: 5vmax;
-}
+  }
+  
+  /* Proyectos */
+  .ProyectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    padding: 5vmax 2vmax;
+    border: 2px solid rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+    margin-bottom: 5vmax;
+    overflow: hidden; /* Ocultamos el contenido desbordado */
+  }
+  
+  /* Contenedor de las imágenes */
+  .image-container {
+    display: flex;
+   /*  gap: 2vmax; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Imágenes */
+  .trackerLaptop, .trackerMovile {
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
 
-.TituloPrincipal {
-    color: black;
-}
+  /* Tamaño inicial de las imágenes */
+  .trackerLaptop {
+    width: 35vmax;
+    margin-right: 2vmax;
+  }
+  
+  .trackerMovile {
+    width: 12vmax;
+  }
+
+  .trackerLaptop2 {
+    width: 35vmax;
+    margin-right: 2vmax;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  .trackerMovile2 {
+    width: 12vmax;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Efecto hover en las imágenes (se encogen y se desplazan hacia arriba) */
+  .ProyectContainer:hover .trackerLaptop,
+  .ProyectContainer:hover .trackerMovile {
+    transform: scale(0.9) translateX(100px); /* Encoge las imágenes al hacer hover */
+    
+  }
+  
+  /* Div de información del proyecto (inicialmente oculto a la izquierda) */
+  .project-info {
+    position: absolute;
+    left: -100%; /* Comienza fuera de la pantalla */
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2vmax;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: left 0.8s ease; /* Transición suave para el deslizamiento */
+  }
+  
+  /* Mostrar el div con la información al hacer hover sobre el contenedor */
+  .ProyectContainer:hover .project-info {
+    left: 0; /* Se desliza hacia su posición visible */
+  }
+
+
+
+  /* efecto contrario */
+
+   /* Efecto hover en las imágenes (se encogen y se desplazan hacia arriba) */
+   .ProyectContainer:hover .trackerLaptop2,
+   .ProyectContainer:hover .trackerMovile2 {
+     transform: scale(0.9) translateX(-120px); /* Encoge las imágenes al hacer hover */
+     
+   }
+
+   /* Div de información del proyecto (inicialmente oculto a la izquierda) */
+  .project-info2 {
+    position: absolute;
+    right: -100%; /* Comienza fuera de la pantalla */
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2vmax;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: right 0.8s ease; /* Transición suave para el deslizamiento */
+  }
+  
+  /* Mostrar el div con la información al hacer hover sobre el contenedor */
+  .ProyectContainer:hover .project-info2 {
+    right: 0; /* Se desliza hacia su posición visible */
+  }
+
+  
