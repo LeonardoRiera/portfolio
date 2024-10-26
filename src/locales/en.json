@@ -8,5 +8,14 @@
 
     "header": {
       "titulo": "Welcome to my Portfolio"
+    },
+
+    "proyectos": {
+      "tecnologias": "Technologies",
+      "descripcion": "Description",
+      "descripcionDev": ". E-COMMERCE structure",
+      "flujo": ". Sales Flow (Cart and Form)",
+      "relevancias": ". Filter by Product and Categories",
+      "responsive": ". 100% Responsive"
     }
 }
