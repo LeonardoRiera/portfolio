@@ -17,5 +17,25 @@
       "flujo": ". Sales Flow (Cart and Form)",
       "relevancias": ". Filter by Product and Categories",
       "responsive": ". 100% Responsive"
-    }
+    },
+
+    "imperioTickets": {
+    "tecnologias": "Technologies",  
+    "descripcion": "Description",
+    "descripcionDev": ". E-COMMERCE structure",
+    "flujo": ". Sales Flow Oriented to Payment Gateway",
+    "relevancias": ". Complex Implementation of Dynamic Data",
+    "responsive": ". 100% Responsive"
+
+  },
+
+  "tracker": {
+    "tecnologias": "Technologies",
+    "descripcion": "Description",
+    "descripcionDev": ". Landing Page",
+    "flujo": ". Specialized Virtual Reality Modules Sales Page",
+    "relevancias": ". Project Approach Focused on Design Aesthetics",
+    "responsive": ". 100% Responsivo"
+
+  }
 }

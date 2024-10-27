@@ -1,22 +1,44 @@
 {
-    "navbar": {
-      "about": "Sobre Mí",
-      "projects": "Proyectos",
-      "resume": "CV"
+  "navbar": {
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "resume": "CV"
       
-    },
+  },
 
-    "header": {
-      "titulo": "Bienvenidos a mi Portfolio"
-    },
+  "header": {
+    "titulo": "Bienvenidos a mi Portfolio"
+  },
 
-    "proyectos": {
-      "descripcion": "Descripción",
-      "tecnologias": "Tecnologías",
-      "descripcionDev": ". Estructura de E-COMMERCE",
-      "flujo": ". Flujo de Venta (Carrito y Formulario)",
-      "relevancias": ". Filtro por Producto y Categorías",
-      "responsive": ". 100% Responsivo"
+  "proyectos": {
+    "descripcion": "Descripción",
+    "tecnologias": "Tecnologías",
+    "descripcionDev": ". Estructura de E-COMMERCE",
+    "flujo": ". Flujo de Venta (Carrito y Formulario)",
+    "relevancias": ". Filtro por Producto y Categorías",
+    "responsive": ". 100% Responsivo"
        
-    }
+  },
+
+  "imperioTickets": {
+    "descripcion": "Descripción",
+    "tecnologias": "Tecnologías",
+    "descripcionDev": ". Estructura de E-COMMERCE",
+    "flujo": ". Flujo de Venta Orientada a Pasarela de Pagos",
+    "relevancias": ". Implementación Compleja de Datos Dinámicos",
+    "responsive": ". 100% Responsivo"
+
+  },
+
+  "tracker": {
+    "descripcion": "Descripción",
+    "tecnologias": "Tecnologías",
+    "descripcionDev": ". Landing Page",
+    "flujo": ". Pagina de Venta de Módulos de Realidad Virtual Especializados",
+    "relevancias": ". Enfoque del Proyecto Orientado a la Estética de Diseño",
+    "responsive": ". 100% Responsivo"
+
+  }
+
+
 }

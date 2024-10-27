@@ -20,9 +20,11 @@
     border-radius: 10px;
     margin-bottom: 5vmax;
     overflow: hidden; /* Ocultamos el contenido desbordado */
-   
+    
     
 }
+
+
 
 
 
@@ -30,7 +32,6 @@
 /* Contenedor de las imágenes */
 .image-container {
     display: flex;
-   /*  gap: 2vmax; */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -43,10 +44,7 @@
 .trackerLaptop {
     width: 35vmax;
     margin-right: 2vmax;
-    margin-left: 2vmax;
-   
-   
-    
+    margin-left: 2vmax;   
     
 }
   
@@ -100,7 +98,7 @@
     
 }
 
-/* Div de información del proyecto (inicialmente oculto a la izquierda) */
+/* Div de información del proyecto (inicialmente oculto a la arriba) */
 .project-infoBajo {
     position: absolute;
     top: -100%; /* Comienza fuera de la pantalla */
@@ -108,7 +106,7 @@
     height: 20%;
     background-color: rgba(0, 0, 0, 0.122);
     padding: 0.5vmax;
-    transition: top 0.8s ease;
+    transition: top 0.6s ease;
     display: flex;
     justify-content: center;
     
@@ -122,6 +120,18 @@
     text-decoration: none;
 }
 
+.gatoImperio {
+    font-size: 4vmax;
+    color: #FE7247;
+    text-decoration: none;
+}
+
+.gatoTracker {
+    font-size: 4vmax;
+    color: #2EFF4D;
+    text-decoration: none;
+}
+
 
   
 /* Mostrar el div con la información al hacer hover sobre el contenedor */
@@ -131,13 +141,16 @@
 }
 
 
- 
+
+
+
+
 
 
 /* efecto contrario */
 .trackerLaptop2 {
     width: 35vmax;
-    margin-right: 2vmax;
+    
     cursor: pointer;
     transition: transform 0.5s ease;
 }
@@ -146,13 +159,17 @@
     width: 12vmax;
     cursor: pointer;
     transition: transform 0.5s ease;
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    
+
 }
 
 /* Efecto hover en las imágenes (se encogen y se desplazan hacia arriba) */
 .ProyectContainer:hover .trackerLaptop2,
 .ProyectContainer:hover .trackerMovile2 {
-    transform: scale(0.9) translateX(-120px); /* Encoge las imágenes al hacer hover */
-     
+    transform: scale(0.9) translateX(-130px); /* Encoge las imágenes al hacer hover */
+   
 }
 
 /* Div de información del proyecto (inicialmente oculto a la izquierda) */
@@ -163,8 +180,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    padding: 2vmax;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 1.8vmax 1vmax 1.8vmax 0.5vmax ;
     transition: right 0.8s ease; 
 }
   
@@ -174,31 +190,77 @@
 }
 
 /* contenido dentro de las cards */
+.travelTechContainer2 {
+    padding-top: 2vmax; /*importante para el responsive  */
+}
 
-/* seccion de logos de developer */
+/* seccion de logos de tecnologias */
 .logosContainer {
     display:flex;
     justify-content: start;
     gap: 1vmax;
+    margin-bottom: 1vmax;
 
 }
 
-/* seccion de logos de grafic design */
+/* seccion de logos de tecnologias graficas*/
 .logosContainer2 {
     display:flex;
     justify-content: start;
     gap: 1vmax;
-    margin-top: 1.5vmax;
+  
 }
 
-/* nombres de proyectos con su tipografia personalizada */
+/* seccion de logos de tecnologias */
+.logosContainer3 {
+    display:flex;
+    justify-content: start;
+    gap: 1vmax;
+    margin-bottom: 1vmax;
+
+}
+
+/* seccion de logos de tecnologias graficas*/
+.logosContainer4 {
+    display:flex;
+    justify-content: start;
+    gap: 1vmax;
+  
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* nombres de proyectos con su *tipografia personalizada */
 .proyectNameDevs {
     font-family: "Passion One", sans-serif;
     font-size: 3vmax;
-    font-weight: bold;
+    font-weight: 300;
+    color: #77fbfb;
 }
 
-/* subtitulos */
+.proyectNameImperio {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.2vmax;
+    text-align: start;
+    color: #F0E541;
+}
+
+.proyectNameTracker {
+    font-family: "Jockey One", sans-serif;
+    font-size: 3.2vmax;
+    color: #FF5E23;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* subtitulos en general */
+
 .proyectSubtitleDevs {
 
     font-family: "Archivo Narrow", sans-serif;
@@ -206,16 +268,26 @@
     font-weight: 300;
 }
 
+.proyectDevs1 {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 1.1vmax;
+    font-weight: lighter;
+    
+}
+
 .proyectDevs {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 1.2vmax;
+    font-weight: 400;
+    line-height: 1.18;
 }
 
-/* titulo que presenta las tecnologias */
+/* titulo que presenta las tecnologias en general */
 .techTitle {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 1.5vmax;
     margin-bottom: 1.8vmax;
+    
 
 }
 
