@@ -69,9 +69,8 @@ const Proyects = () => {
         </div>
 
         <div className="project-infoBajo">
-          
-          <a href="https://github.com/LeonardoRiera/trackLanding.git" target='blank' className='gatoTracker'><i class="devicon-github-original gatoTracker"></i></a>
-          
+          <a href="https://github.com/LeonardoRiera/trackLanding.git" target='blank' className='gatoAncor'><i class="devicon-github-original gatoTracker"></i></a>
+          <a href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/" target='blank' className='gatoAncor'><i class="devicon-vercel-original gato2"></i></a>
         </div>
         
       </div>
@@ -79,7 +78,7 @@ const Proyects = () => {
 
 
       {/* imperio tickets */}
-      <div className='ProyectContainer'>
+      <div className='ProyectContainer2'>
         
         <div className='image-container'>
           <img src={imperio} alt="tracker laptop" className='trackerLaptop2' />
@@ -102,13 +101,13 @@ const Proyects = () => {
 
             <h5 className='techTitle'>{t('proyectos.tecnologias')}:</h5>
 
-            <div className='logosContainer3'>
+            <div className='logosContainer'>
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" className='logos'/>
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" className='logos' />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" className='logos' />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" className='logos' />
             </div>
-            <div className='logosContainer4'>  
+            <div className='logosContainer2'>  
              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" className='logos' />
              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg" className='logos' />
            
@@ -120,8 +119,8 @@ const Proyects = () => {
 
         <div className="project-infoBajo">
           
-          <a href="https://github.com/LeonardoRiera/IMPERIOtickets.git" target='blank' className='gatoImperio'><i class="devicon-github-original gatoImperio"></i></a>
-          
+          <a href="https://github.com/LeonardoRiera/IMPERIOtickets.git" target='blank' className='gatoAncor'><i class="devicon-github-original gatoImperio"></i></a>
+          <a href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/" target='blank' className='gatoAncor'><i class="devicon-vercel-original gato2"></i></a>
         </div>
         
 
@@ -174,8 +173,8 @@ const Proyects = () => {
 
         <div className="project-infoBajo">
           
-          <a href="https://github.com/LeonardoRiera/CreaTuLanding-Riera.git" target='blank' className='gato'><i class="devicon-github-original gato"></i></a>
-          
+          <a href="https://github.com/LeonardoRiera/CreaTuLanding-Riera.git" target='blank' className='gatoAncor'><i class="devicon-github-original gato"></i></a>
+          <a href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/" target='blank' className='gatoAncor'><i class="devicon-vercel-original gato2"></i></a>
         </div>
 
       </div>
