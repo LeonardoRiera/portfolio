@@ -38,6 +38,11 @@
     "relevancias": ". Enfoque del Proyecto Orientado a la Estética de Diseño",
     "responsive": ". 100% Responsivo"
 
+  },
+
+  "tooltip": {
+    "github": "Ver en Github",
+    "vercel": "Ver en Vercel"
   }
 
 

@@ -37,5 +37,10 @@
     "relevancias": ". Project Approach Focused on Design Aesthetics",
     "responsive": ". 100% Responsivo"
 
+  },
+
+  "tooltip": {
+    "github": "View on Github",
+    "vercel": "View on Vercel"
   }
 }

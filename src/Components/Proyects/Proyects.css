@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 5vmax;
+    
 }
 
 /* ////////// generales //////////////// */
@@ -49,7 +50,7 @@
 
 /* ///////////////////////////////////////////////// */
 
-/* Proyectos central */
+/* Proyectos del centro */
 .ProyectContainer2 {
     display: flex;
     flex-direction: column;
@@ -76,13 +77,13 @@
     background: rgba(255, 255, 255, 0.051); /* Brillo blanco sutil */
     opacity: 0;
     transition: all 0.6s ease;
-    transform: rotate(60deg);
+    transform: rotate(65deg);
 }
   
 .ProyectContainer2:hover::before {
     opacity: 1; /* Muestra el brillo al hacer hover */
     top: 50%;
-    right: -5%; /* Mueve el brillo hacia la parte inferior derecha */
+    right: 2%; /* Mueve el brillo hacia la parte inferior derecha */
 }
 
 /* //////////////////////////////////////////////////////////////// */
@@ -117,7 +118,7 @@
     background-color: transparent;   
 }
   
-/* Imágenes */
+/*  efecto para Imágenes 1 y 3 */
 .trackerLaptop, .trackerMovile {
     transition: transform 0.5s ease;    
 }
@@ -231,7 +232,10 @@
 
 .gatoAncor:hover {
     transform: scale(1.1);
+    background-color: transparent !important;
+
 }
+
 
 .gato {
     font-size: 4vmax;
@@ -257,12 +261,12 @@
 
 .gatoImperio {
     font-size: 4vmax;
-    color: #FE7247;
+    color: #F0E541;
     text-decoration: none;
 }
 
 .gatoImperio:hover {
-    color: #F0E541;
+    color: #FE7247;
 }
 
 .gatoTracker {
@@ -293,14 +297,15 @@
 /* contenido dentro de las cards */
 
 .travelTechContainer2 {
-    padding-top: 2vmax; /*importante para el responsive  */
+    padding-top: 0.5vmax; /*importante para el responsive  */
+    
 }
 
 /* titulo que presenta las tecnologias en general "tecnologias"*/
 .techTitle {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 1.5vmax;
-    margin-bottom: 1.8vmax;
+    margin-bottom: 0.9vmax;
 }
 
 /* seccion de logos de tecnologias */
@@ -309,6 +314,7 @@
     justify-content: start;
     gap: 1vmax;
     margin-bottom: 1vmax;
+    
 
 }
 
@@ -317,6 +323,7 @@
     display:flex;
     justify-content: start;
     gap: 1vmax;
+   
   
 }
 
@@ -357,13 +364,6 @@
 
 /*////////////////// subtitulos en general ///////////////*/
 
-/* .proyectSubtitleDevs {
-
-    font-family: "Archivo Narrow", sans-serif;
-    width: 2vmax;
-    font-weight: 300;
-}
-*/
 
 /* palabra "descripcion" */
 .proyectDevs1 {
@@ -380,6 +380,359 @@
     font-weight: 400;
     line-height: 1.18;
 }
+
+/* etiqueta hr */
+.separador {
+    color: rgba(255, 255, 255, 0.318);
+    margin-top: 3vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+    
+    
+    
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+    
+    /* Proyectos */
+    .ProyectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 40vmax;
+         
+    }
+
+    .ProyectContainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 40vmax;
+         
+    }
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+  
+    /* Proyectos */
+    .ProyectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 40vmax;
+         
+    }
+
+    .ProyectContainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 40vmax;
+         
+    }
+
+    /* tamaño de fotos 1 y 3*/
+
+    .trackerLaptop {
+        width: 38vmax;
+        margin-right: 2vmax;
+        margin-left: 0.8vmax; 
+             
+    }
+      
+    .trackerMovile {
+        width: 14vmax;  
+          
+    }
+
+    /*  Tamaño inicial de las imágenes para 2  */
+
+    .trackerLaptop2 {
+        width: 38vmax;
+       
+    }
+    
+    .trackerMovile2 {
+        width: 14vmax;
+        margin-left: 2vmax;
+        margin-right: 0.8vmax;
+       
+    }
+
+    /* contenedor de la info 1 y 2  */
+
+    .project-info {
+        width: 27%;
+        height: 100%;
+        padding: 1.8vmax 0 1.8vmax 1.5vmax;
+      
+    }
+
+    .project-info2 {
+        width: 27%;
+        height: 100%;
+        padding: 1.8vmax 0.5vmax 1.8vmax 1.5vmax;
+      
+    }
+
+    /* ///////////////////////////////////////////////////////////// */
+
+    /* nombres de proyectos con su *tipografia personalizada */
+    .proyectNameDevs {
+        font-size: 4vmax;   
+    }
+
+    .proyectNameImperio {
+        font-size: 3.5vmax;    
+    }
+
+    .proyectNameTracker {
+        font-size: 4vmax;    
+    }
+
+
+    /* ///////////////////////////////////////////////////////////// */
+
+
+    /* palabra "descripcion" */
+    .proyectDevs1 {
+        font-size: 1.5vmax;       
+    }
+
+    /* resto de los textos descriptivo */ 
+    .proyectDevs {
+        font-size: 1.4vmax;    
+    }
+
+    /* titulo que presenta las tecnologias en general "tecnologias"*/
+    .techTitle {
+        font-size: 1.8vmax;
+    }
+
+    /* logos en general */
+    .logos {
+        width: 2.2vmax;    
+    }
+
+    /* etiqueta hr */
+    .separador {
+        margin-top: 2vmax;
+    }
+   
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px) {
+
+    /* Proyectos */
+    .ProyectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 60vmax;
+
+       
+        
+             
+    }
+
+    /* Efecto de brillo (glow) */
+    .ProyectContainer::before {
+        opacity: 1; /* Muestra el brillo al hacer hover */
+        top:20%;
+        left: 30%; 
+        
+    }
+    .ProyectContainer:hover::before {
+        opacity: 1; /* Muestra el brillo al hacer hover */
+        top: 20%;
+        left: 30%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+    
+    
+    .ProyectContainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 60vmax;
+             
+    }
+
+          
+    /* Contenedor de las imágenes */
+    .image-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 3vmax;
+        width: 100%; 
+        z-index: 5;
+        
+    }
+
+   
+
+    /* contenedor de la info 1 y 2  */
+
+     .project-info {
+        width: 35%;
+        height: 100%;
+        padding: 1.8vmax 0 1.8vmax 2.5vmax;
+        background-color: transparent;
+      
+    }
+
+    .project-info2 {
+        width:35%;
+        height: 100%;
+        padding: 1.8vmax 0.5vmax 1.8vmax 2.5vmax;
+        background-color: transparent;
+      
+    }
+        
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+     
+
+
+   
+   
+    
+     
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+   
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:425px) {
+   
+   
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:360px) {
+    
+}
+  
 
 
 
