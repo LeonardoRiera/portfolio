@@ -47,7 +47,7 @@ const Proyects = () => {
 
         {/* Div que contiene la información del proyecto */}
         <div className="project-info">
-          <div>
+          <div className='textContainer'>
             <h3 className='proyectNameTracker'>Tracker</h3>
             <p className='proyectDevs1'>{t('tracker.descripcion')}:</p>
             <p className='proyectDevs'>{t('tracker.descripcionDev')} </p>
@@ -76,29 +76,35 @@ const Proyects = () => {
 
         <div className="project-infoBajo">
           {/* cada logo con su ancor y su tooltip */}
-          <a
-            href="https://github.com/LeonardoRiera/trackLanding.git"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.github`)}
-            rel="noopener noreferrer"
-          >
-            <i className="devicon-github-original gatoTracker"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://github.com/LeonardoRiera/trackLanding.git"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.github`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-github-original gatoTracker"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Github</p>
+          </div>
 
-          <a
-            href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.vercel`)}
-            rel="noopener noreferrer"
-          >
-            <i class="devicon-vercel-original gato2"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.vercel`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-vercel-original gato2"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Vercel</p>
+          </div>
            
         </div>
         
@@ -117,7 +123,7 @@ const Proyects = () => {
 
         {/* Div que contiene la información del proyecto */}
         <div className="project-info2">
-          <div>
+          <div className='textContainer'>
             <h3 className='proyectNameImperio'>Imperio Ticket</h3>
             <p className='proyectDevs1'>{t('imperioTickets.descripcion')}:</p>
             <p className='proyectDevs'>{t('imperioTickets.descripcionDev')} </p>
@@ -148,29 +154,35 @@ const Proyects = () => {
 
         <div className="project-infoBajo">
 
-          <a
-            href="https://github.com/LeonardoRiera/IMPERIOtickets.git"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.github`)}
-            rel="noopener noreferrer"
-          >
-            <i class="devicon-github-original gatoImperio"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://github.com/LeonardoRiera/IMPERIOtickets.git"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.github`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-github-original gatoImperio"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Github</p>
+          </div>
 
-          <a
-            href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.vercel`)}
-            rel="noopener noreferrer"
-          >
-            <i class="devicon-vercel-original gato2"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.vercel`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-vercel-original gato2"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Vercel</p>
+          </div>
        
         </div>
         
@@ -224,29 +236,35 @@ const Proyects = () => {
 
         <div className="project-infoBajo">
 
-        <a
-            href="https://github.com/LeonardoRiera/CreaTuLanding-Riera.git"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.github`)}
-            rel="noopener noreferrer"
-          >
-            <i class="devicon-github-original gato"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://github.com/LeonardoRiera/CreaTuLanding-Riera.git"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.github`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-github-original gato"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Github</p>
+          </div>
 
-          <a
-            href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
-            target="_blank"
-            className="gatoAncor"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title={t(`tooltip.vercel`)}
-            rel="noopener noreferrer"
-          >
-            <i class="devicon-vercel-original gato2"></i>
-          </a>
+          <div className='redirectionContainer'>
+            <a
+              href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
+              target="_blank"
+              className="gatoAncor"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title={t(`tooltip.vercel`)}
+              rel="noopener noreferrer"
+            >
+              <i className="devicon-vercel-original gato2"></i>
+            </a>
+            <p className='verEnRedirection'>Ver en Vercel</p>
+          </div>
           
         </div>
 

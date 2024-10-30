@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 5vmax;
+    background-color: black;
     
 }
 
@@ -227,12 +228,12 @@
     text-decoration: none;
     font-size: 4vmax;
     transition: transform 0.6s ease;
-    background-color: transparent;    
+       
 }
 
 .gatoAncor:hover {
     transform: scale(1.1);
-    background-color: transparent !important;
+    
 
 }
 
@@ -273,6 +274,10 @@
     font-size: 4vmax;
     color: #2EFF4D;
     text-decoration: none;
+}
+
+.verEnRedirection {
+    display: none;
 }
 
   
@@ -604,7 +609,7 @@
         width: 90%;
         padding: 5vmax 2vmax;
         margin-bottom: 5vmax;
-        height: 90vmax;
+        height: 105vmax;
 
        
         
@@ -614,14 +619,15 @@
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
         opacity: 1; /* Muestra el brillo al hacer hover */
-        top:20%;
-        left: 30%; 
+        top:-11%;
+        left: 40%; 
+        transform: rotate(65deg);
         
     }
     .ProyectContainer:hover::before {
         opacity: 1; /* Muestra el brillo al hacer hover */
-        top: 20%;
-        left: 30%; /* Mueve el brillo hacia la parte inferior derecha */
+        top: -11%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
     
@@ -634,25 +640,25 @@
         width: 90%;
         padding: 5vmax 2vmax;
         margin-bottom: 5vmax;
-        height: 90vmax;
+        height: 102vmax;
       
              
     }
 
     .ProyectContainer2::before {
         content: "";
-        top: -16%;
-        right: 97%;
+        top: 30%;
+        right: 40%;
         opacity: 1;
-        transform: rotate(60deg);
-        height: 205%;
+        transform: rotate(22deg);
+        height: 220%;
         
     }
       
     .ProyectContainer2:hover::before {
         opacity: 1; /* Muestra el brillo al hacer hover anular! */
-        top: -17%;
-        right: 97%; /* Mueve el brillo hacia la parte inferior derecha */
+        top: 30%;
+        right: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
 
@@ -682,6 +688,7 @@
         gap: 3vmax;
         width: 100%; 
         z-index: 5;
+        margin-top: 4vmax;
         
     }
 
@@ -696,12 +703,12 @@
         bottom: 0; /* Comienza fuera de la pantalla */
         width: 100%;
         height: 100%;
-        padding: 1.8vmax 2vmax 1.8vmax 2vmax;
+        padding: 1.8vmax 4vmax 1.8vmax 2vmax;
         transition: none;
-        flex-direction: row-reverse;
-        justify-content:space-around; 
-        margin-top: 5vmax; 
-        /* background-color: transparent;  */ 
+        flex-direction: row;
+        justify-content:space-between; 
+        margin-top: 4vmax; 
+        background-color: transparent;  
     }
       
     /* Mostrar el div con la información al hacer hover sobre el contenedor */
@@ -717,11 +724,13 @@
         bottom: 0;
         width: 100%;
         height: 100%;
-        padding: 1.8vmax 1vmax 1.8vmax 0.5vmax ;
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax ;
         transition: none; 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 6vmax;
+        background-color: transparent;
         
     }
     
@@ -731,8 +740,245 @@
     }
 
 
+    /* bloque de textos !!!a lo ultimo unir los que se repitan!!*/
+
+    .textContainer {
+        background-color: transparent;
+        padding-right: 2vmax;
+    }
+
+    .proyectsTextContain {
+        background-color: transparent;
+    }
+
+    /* nombres personlizados de proyectos LIMPIAR ESTE CODIGO AL FINAL! */
+
+    .proyectNameDevs {
+        background-color: transparent;
+    }
+
+    .proyectNameImperio {
+        background-color: transparent;
+    }
+
+    .proyectNameTracker {
+        background-color: transparent;
+    }
+
+    /*  */
+    .proyectDevs1 {
+        background-color: transparent;
+        font-size:1.6vmax ; 
+    }
+
+    .proyectDevs {
+        background-color: transparent;
+        font-size: 1.8vmax;
+    }
+
+    .travelTechContainer {
+        background-color: transparent;
+    }
+
+    .travelTechContainer2 {
+        background-color: transparent;
+    }
+
+    .techTitle {
+        background-color: transparent;
+        font-size: 2vmax;
+        margin-bottom: 2vmax;
+    }
+
+    .logosContainer {
+        background-color: transparent;
+        gap: 2vmax;
+    }
+
+    .logosContainer2 {
+        background-color: transparent;
+        gap: 2vmax;
+    }
+
+    .logos {
+        background-color: transparent; 
+        width: 3.2vmax; 
+    }
+
+
+    /* direccionadores */
+
+    /* ////////////div del logo de github (inicialmente oculto a arriba)///////// */
+
+    .project-infoBajo {
+        position: relative;
+        top: 0%; /* Comienza fuera de la pantalla */
+        bottom: 0%;
+        width: 40%;
+        height: 20%;
+        background-color: transparent;
+        padding: 0.5vmax;
+        transition: none;
+        display: flex;
+        justify-content: center;
+        gap: 2vmax;        
+    }
+
+    /* activacion de parrafo */
+
+    .redirectionContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .verEnRedirection {
+        display: block;
+        color: white;
+        font-family: "Archivo Narrow", sans-serif;
+        
+    }
+
+    /* ///// diferentes colores para cada proyecto///// */
+    .gatoAncor {
+        text-decoration: none;
+        font-size: 4vmax;
+        transition: transform 0.6s ease;
+        background-color: transparent;    
+    }
+
+    .gato {
+        font-size: 6vmax;
+        color: #E6035A; 
+        background-color: transparent;  
+    }
+
+    .gato2 {
+        font-size: 6vmax;
+        color: #ff3333;
+        margin-left: 0; 
+        background-color: transparent;
+        transform-origin: center;
+        background-color: transparent; 
+    
+    }
+
+    .gatoImperio {
+        font-size: 6vmax;
+        color: #F0E541;
+        text-decoration: none;
+        background-color: transparent; 
+    }
+
+    .gatoTracker {
+        font-size: 6vmax;
+        color: #2EFF4D;
+        text-decoration: none;
+        background-color: transparent; 
+    }
+
+  
+    /* Mostrar el div con la información al hacer hover sobre el contenedor */
+    .ProyectContainer:hover .project-infoBajo {
+        top: 0; /* Se desliza hacia su posición visible */
+        
+    }
+
+    /* Mostrar el div con la información al hacer hover sobre el contenedor 2 */
+    .ProyectContainer2:hover .project-infoBajo {
+        top: 0; /* Se desliza hacia su posición visible */
+        
+    }
+
+
+    
+
+
     
         
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+    .ProyectContainer {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 102vmax;
+
+       
+        
+             
+    }
+
+    /* Efecto de brillo deshacer */
+    .ProyectContainer::before {
+        top:-13%;
+        left: 40%; 
+        transform: rotate(65deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -13%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+
+    .ProyectContainer2 {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 102vmax;  
+             
+    }
+
+    .image-container {
+        gap: 3vmax;
+        width: 100%; 
+        z-index: 5;
+        margin-top: 2vmax;
+        
+    }
+
+
+    .project-info {
+        position: relative;
+        left: 0;
+        bottom: 0; /* Comienza fuera de la pantalla */
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax;
+        transition: none;
+        flex-direction: row;
+        justify-content:space-between; 
+        margin-top: 4vmax; 
+          
+    }
+
+    .project-info2 {
+        position: relative;
+        right: 0; /* Comienza fuera de la pantalla */
+        bottom: 0;
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax ;
+        transition: none; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 4vmax;
+        
+        
+    }
+
+
+   
+   
+    
+     
+
 }
 
 
@@ -741,14 +987,7 @@
 
 
 @media screen and (max-width:768px) {
-
-     
-
-
-   
-   
-    
-     
+ 
 
 }
 
@@ -758,7 +997,88 @@
 
 @media screen and (max-width:636px) {
     
+    .ProyectContainer {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 106vmax;
 
+       
+        
+             
+    }
+
+    /* Efecto de brillo deshacer */
+    .ProyectContainer::before {
+        top:-13%;
+        left: 40%; 
+        transform: rotate(66deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -13%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+
+    .ProyectContainer2 {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 106vmax;  
+             
+    }
+
+    .ProyectContainer2::before {
+        content: "";
+        top: 30%;
+        right: 40%;
+        opacity: 1;
+        transform: rotate(21deg);
+        height: 240%;
+        
+    }
+      
+    .ProyectContainer2:hover::before {
+        opacity: 1; /* Muestra el brillo al hacer hover anular! */
+        top: 30%;
+        right: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+    .image-container {
+        gap: 3vmax;
+        width: 100%; 
+        z-index: 5;
+        margin-top: 2vmax;
+        
+    }
+
+
+    .project-info {
+        position: relative;
+        left: 0;
+        bottom: 0; /* Comienza fuera de la pantalla */
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax;
+        transition: none;
+        flex-direction: row;
+        justify-content:space-between; 
+        margin-top: 4vmax; 
+          
+    }
+
+    .project-info2 {
+        position: relative;
+        right: 0; /* Comienza fuera de la pantalla */
+        bottom: 0;
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax ;
+        transition: none; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 4vmax;
+        
+        
+    }
 }
 
 
@@ -768,33 +1088,207 @@
 
 @media screen and (max-width:576px) {
 
-   
+    .ProyectContainer {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 117vmax;
+         
+    }
+      
+    .project-info {
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax;
+        flex-direction: column;
+        justify-content:space-between; 
+        margin-top: 4vmax; 
+          
+    }
+
+    .ProyectContainer2 {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 117vmax;  
+             
+    }
+
     
+    .project-info2 {
+        padding: 1.8vmax 2vmax 1.8vmax 2vmax ;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 4vmax;
+        
+        
+    }
+
+     /* Efecto de brillo deshacer */
+     .ProyectContainer::before {
+        top:-24%;
+        left: 40%; 
+        transform: rotate(66deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -24%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
 
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:543px) {
+    .project-infoBajo {
+       
+        /* Comienza fuera de la pantalla */
+        width: 50%;
+        height: 20%;
+        
+        padding: 0.5vmax;
+               
+    }
+   
     
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+   
+    /* Efecto de brillo deshacer */
+    .ProyectContainer::before {
+        top:-29%;
+        left: 40%; 
+        transform: rotate(66deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -29%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+     .ProyectContainer {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 122vmax;
+         
+    }
+
+    .ProyectContainer2 {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 122vmax;  
+             
+    }
+
+     /* Efecto de brillo deshacer */
+     .ProyectContainer::before {
+        top:-33%;
+        left: 40%; 
+        transform: rotate(66deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -33%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+
+    .project-infoBajo {
+       
+        /* Comienza fuera de la pantalla */
+        width: 70%;
+        height: 20%;
+        
+        padding: 2vmax;
+               
+    }
     
 }
 
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
-@media screen and (max-width:425px) {
-   
-   
-}
+@media screen and (max-width:376px) {
+    .ProyectContainer {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 128vmax;
+         
+    }
 
+    .ProyectContainer2 {
+        width: 90%;
+        padding: 5vmax 2vmax;
+        margin-bottom: 5vmax;
+        height: 128vmax;  
+             
+    }
+
+    /* Efecto de brillo deshacer */
+    .ProyectContainer::before {
+        top:-38%;
+        left: 40%; 
+        transform: rotate(66deg);
+        
+    }
+    .ProyectContainer:hover::before {
+        top: -38%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+    .project-infoBajo {
+       
+        /* Comienza fuera de la pantalla */
+        width: 100%;
+        height: 20%;
+        
+        
+               
+    }
+    
+    
+}
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:325px) {
+    .ProyectContainer {    
+        height: 132vmax;
+         
+    }
+
+    .ProyectContainer2 {
+        height: 132vmax;  
+             
+    }
+
+    .project-infoBajo {
+       
+        /* Comienza fuera de la pantalla */
+        width: 100%;
+        height: 20%;
+        
+        
+               
+    }
+
     
 }
-  
+
+
 
 
 

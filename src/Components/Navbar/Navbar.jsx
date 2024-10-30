@@ -31,7 +31,7 @@ const Navbar = () => {
               <a className="nav-link linksnavbar" href="#">{t('navbar.projects')}</a>
             </li>
             <li className="nav-item linkBoton">
-              <a className="nav-link linksnavbar" href="#"><i class="bi bi-file-earmark-arrow-down"></i> {t('navbar.resume')}</a>
+              <a className="nav-link linksnavbar" href="#"><i className="bi bi-file-earmark-arrow-down"></i> {t('navbar.resume')}</a>
             </li>
           </ul>
           

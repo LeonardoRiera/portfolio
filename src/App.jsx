@@ -10,17 +10,19 @@ import Proyects from './Components/Proyects/Proyects.jsx';
 const App = () => {
   return (
 
-    <LanguageProvider>
+    <div className='App'>
+      <LanguageProvider>
 
-      <I18nextProvider i18n={i18n}>
+        <I18nextProvider i18n={i18n}>
 
-        <Navbar />
-        <Header />
-        <Proyects />  
+          <Navbar />
+          <Header />
+          <Proyects />  
 
-      </I18nextProvider>
+        </I18nextProvider>
 
-    </LanguageProvider>
+      </LanguageProvider>
+    </div>
 
   );
 };
