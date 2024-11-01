@@ -276,6 +276,11 @@
     text-decoration: none;
 }
 
+.gatoTracker:hover {
+    color: #FBF979;
+   
+}
+
 .verEnRedirection {
     display: none;
 }
