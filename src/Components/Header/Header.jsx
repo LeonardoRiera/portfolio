@@ -1,7 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
 import { useTranslation } from 'react-i18next';
-import './Header.css'; 
+import './Header.css';
+import circulo from '../../image/circulo.png' 
 
 
 
@@ -25,7 +26,7 @@ const Header = () => {
     <div className='HeaderContainer'>
 
 
-      
+      <img src={circulo} alt="" className='circulo' />
     
        
     </div>
