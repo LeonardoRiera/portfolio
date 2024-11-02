@@ -1,0 +1,46 @@
+.footerContenedor {
+    height: 28vmax;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.contactame {
+    font-family: "Mrs Sheppards", cursive;
+    text-align: center;
+    color: white;
+    font-size: 8vmax;
+}
+
+.tercerContainer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 5vmax;
+
+}
+.footerTitulo {
+
+    font-family: "Mrs Sheppards", cursive;
+    font-size: 4vmax;
+    color: #2bff00;
+    text-align: center;
+
+}
+
+
+.circuloFooter {
+    width: 20vmax;
+    animation: girarInfinito 20s linear infinite;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.823)); /* Brillo alrededor del círculo */
+    
+}
+  
+@keyframes girarInfinito {
+    from {
+      transform: rotate(0deg); /* Inicia en la posición inclinada */
+    }
+    to {
+      transform: rotate(360deg); /* Mantiene la inclinación durante la rotación */
+    }
+}

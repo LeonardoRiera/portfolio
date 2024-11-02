@@ -5,11 +5,13 @@
   align-items: center;
   justify-content: center;
   padding-top: 5vmax;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1)), url('../../image/texturaBlack.jpg'); 
+ /*  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1)), url('../../image/texturaBlack.jpg'); 
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background-color: black;
   height: 50vmax;
   width: 100%;
+  margin-top: -6vmax;
 }  
 .TituloPrincipal {
   color: azure;

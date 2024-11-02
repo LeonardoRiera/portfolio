@@ -1,13 +1,17 @@
 .navbar {
-    background-color: black;
-    border-bottom: #5bff6e solid 2px;
+    /* background-color: black; */
+    /* border-bottom: #5bff6e solid 2px; */
+    padding: 0 2vmax ;
+
 }
 
 
 .principalNavbar {
-    font-family: "Timmana", sans-serif;
-    color: rgb(129, 255, 133);
-    font-size: 1.5vmax;
+    font-family: "Mrs Sheppards", cursive;
+    color: rgb(0, 255, 60);
+    font-size: 2.8vmax;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.214));
+    
 }
 
 .linkBoton {
