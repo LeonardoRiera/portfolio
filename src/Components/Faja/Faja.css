@@ -1,0 +1,32 @@
+.contenedorPrincipal {
+    overflow: hidden; 
+}
+
+.fajaContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;       /* Oculta el texto que sale de la caja */
+    white-space: nowrap;    /* Evita que el texto se divida en varias líneas */
+    width: 100%;            /* Ancho completo del contenedor */
+    height: 20vmax;
+    color: #ffffff;            /* Color del texto */
+         /* Tamaño del texto */
+    padding: 10px 0;
+    transform: rotate(-2deg)   
+}
+.marquee {
+  
+    
+}
+.marquee-item {
+    font-size: 8rem; 
+    font-family: "Syncopate", sans-serif;
+    font-weight: 100;
+}
+  
+.dot {
+    margin: 0 3vmax;
+    font-size:8rem; /* Ajusta el tamaño de los puntos si es necesario */
+    color: #2BFF00;
+}

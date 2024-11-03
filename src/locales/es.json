@@ -6,9 +6,6 @@
       
   },
 
-  "header": {
-    "titulo": "Bienvenidos a mi Portfolio"
-  },
 
   "proyectos": {
     "descripcion": "Descripción",
@@ -43,7 +40,15 @@
   "tooltip": {
     "github": "Ver en Github",
     "vercel": "Ver en Vercel"
+  },
+
+  "faja": {
+    "web": "Diseño Web",
+    "movile": "Diseño Móvil",
+    "grafic": "Diseño Gráfico"
   }
+
+
 
 
 }

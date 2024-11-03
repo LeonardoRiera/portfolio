@@ -5,21 +5,23 @@
   align-items: center;
   justify-content: center;
   padding-top: 5vmax;
- /*  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1)), url('../../image/texturaBlack.jpg'); 
-  background-size: cover;
-  background-position: center; */
   background-color: black;
-  height: 50vmax;
+  height: 60vmax;
   width: 100%;
   margin-top: -6vmax;
 }  
-.TituloPrincipal {
-  color: azure;
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.red {
+  width: 50vmax;
+  margin-bottom: 10vmax;
   
 }
-
-
-
 
 
 .circulo {
@@ -37,3 +39,7 @@
     transform: rotate(360deg); /* Mantiene la inclinación durante la rotación */
   }
 }
+
+
+
+

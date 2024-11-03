@@ -6,7 +6,8 @@ import i18n from './i18n'; // Importa la configuración de i18next
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Header from './Components/Header/Header.jsx';
 import Proyects from './Components/Proyects/Proyects.jsx';
-import Footer from './Components/Footer/Footer.jsx'
+import Footer from './Components/Footer/Footer.jsx';
+import Faja from './Components/Faja/Faja.jsx';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Navbar />
           <Header />
           <Proyects /> 
+          <Faja />
           <Footer /> 
 
         </I18nextProvider>
