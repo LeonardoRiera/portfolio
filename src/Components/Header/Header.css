@@ -1,45 +1,131 @@
-/* Contenedor principal */
+/* Header.css */
+
 .HeaderContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  padding-top: 5vmax;
+  align-items: center;
   background-color: black;
-  height: 60vmax;
-  width: 100%;
-  margin-top: -6vmax;
-}  
-
+  height: 50vmax; /* Tamaño completo de la pantalla */
+  overflow: hidden;
+}
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: start;
+  height: 60vh;
+  width: 30vw;
+  position: absolute;
+  top: 25vh;
+  left: 55%;
+  transform: translate(-50% -50%);
+  perspective: 1000px;
 }
-.red {
-  width: 50vmax;
-  margin-bottom: 10vmax;
+
+
+.box {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform-style: preserve-3d;
+  animation: animate 5s infinite;
+ 
+  
+ 
+
+}
+
+
+@keyframes animate {
+  0% { 
+      transform: rotateX(0deg) rotateY(0deg); /* Mirando al frente */
+  }
+
+  20% { 
+      transform: rotateX(10deg) rotateY(-30deg); /* Mirando a la izquierda */
+  }
+
+  40% { 
+      transform: rotateX(-10deg) rotateY(30deg); /* Mirando a la derecha */
+  }
+
+  60% { 
+      transform: rotateX(10deg) rotateY(15deg); /* Mirando un poco arriba y a la izquierda */
+  }
+
+  80% { 
+      transform: rotateX(-10deg) rotateY(-15deg); /* Mirando un poco arriba y a la derecha */
+  }
+
+  100% { 
+      transform: rotateX(0deg) rotateY(0deg); /* Regresando al frente */
+  }
+}
+
+
+
+
+.card {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  padding: /* 100px */ 0;
+  color: rgb(66, 255, 107);
+  background-image: url(../../image/triangulo.png);
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+  /* border: solid 2px white; */
+  font-size: 30px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: all 1s;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  
+  
+  border-radius: 20%;
+  
+  
   
 }
 
 
-.circulo {
-  width: 40vmax;
-  animation: girarInfinito 20s linear infinite;
-  filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.823)); /* Brillo alrededor del círculo */
+
+#front {
+  transform: translateZ(125px);
+  transform: translateZ(180px) rotateY(360deg);
+}
+
+#back {
+  transform: translateZ(-125px);
+  transform: translateZ(-180px) rotateY(360deg);
+}
+
+
+
+
+#left {
+ /*  right: 125px; */
+  transform: rotateY(-90deg);
+  right: 180px;
+}
+
+#right {
+  /* left: 125px; */
+  transform: rotateY(90deg);
+  left: 180px;
+}
+
+#top {
+  /* bottom: 125px; */
+  transform: rotateX(90deg);
+  bottom: 180px;
+}
+
+#bottom{
+  /* top: 125px; */
+  transform: rotateX(-90deg);
+  top: 180px;
   
 }
-
-@keyframes girarInfinito {
-  from {
-    transform: rotate(0deg); /* Inicia en la posición inclinada */
-  }
-  to {
-    transform: rotate(360deg); /* Mantiene la inclinación durante la rotación */
-  }
-}
-
-
 
 
