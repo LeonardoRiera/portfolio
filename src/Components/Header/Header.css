@@ -313,7 +313,7 @@
 
   .container {
     
-    top: 120px;
+    top: -10px;
     right: 20px;
    
   }
@@ -322,8 +322,8 @@
     height: 250px;
     width: 250px;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    /* top: 120px;
+    left: 50px; */
     transform-style: preserve-3d;
     animation: animate 5s infinite;
    
@@ -442,7 +442,7 @@
     height: 40vh;
     width: 30vw;
     position: relative;
-    top: -45%;
+    top: 0;
     right: 5%;
     /* transform: translate(-50% -50%); */
     perspective: 1000px;
