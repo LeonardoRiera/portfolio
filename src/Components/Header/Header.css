@@ -1,4 +1,5 @@
 /* Header.css */
+@import url('../../styles/satoshi.css');/* satoshi.css */
 
 .HeaderContainer {
   display: flex;
@@ -9,12 +10,109 @@
   overflow: hidden;
 }
 
+/* seccion titulos header */
+
+.textoHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 2vmax 2vmax 2vmax 12vmax;
+  margin-top: -10vmax;
+  
+ 
+  
+}
+
+.portfolioTitulito {
+  font-family: Satoshi-Black;
+  font-size: 1.8vmax;
+  color: #00ff11;
+  margin: 0;
+  
+}
+
+/* .saludo {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 4vmax;
+  margin: 0;
+  font-weight: 600;
+ 
+} */
+
+.hache {
+  font-size: 6vmax;
+  
+}
+
+.nombre {
+  font-size: 5.5vmax;
+ 
+  
+  
+  
+}
+
+.apellido {
+  font-size: 5.2vmax;
+  
+}
+
+
+.textoPrincipal {
+  font-family: Satoshi-Black;
+  color: white;
+  font-size: 4vmax;
+  line-height: 1.1;
+  
+  
+  
+ 
+
+   
+}
+
+.profesion {
+  font-family: Satoshi-Black;
+  color: white;
+  font-size: 1.2vmax;
+  margin-top: 1vmax;
+}
+.profesionPropia {
+  color: #00ff11;
+}
+
+.cvBoton {
+  font-family: Satoshi-Black;
+  font-size: 1.2vmax;
+  color: #00ff11;
+  padding: 1vmax 5vmax;
+  background-color: transparent;
+  border: 1px solid #00ff11 ;
+  border-radius:5px;
+  margin-top: 1vmax;
+  margin-left: 15%;
+}
+
+.cvBoton:hover {
+  border: 1px solid #00ff11 ;
+  background-color: #00ff11;
+  color: #000000;
+  
+}
+
+
+
+
+/* seccion objeto 3d */
+
 .container {
   height: 60vh;
   width: 30vw;
-  position: absolute;
-  top: 25vh;
-  left: 55%;
+  position: relative;
+  top: -10%;
+  right: 5%;
   transform: translate(-50% -50%);
   perspective: 1000px;
 }

@@ -7,10 +7,7 @@
 
 
 .principalNavbar {
-    font-family: "Mrs Sheppards", cursive;
-    color: rgb(0, 255, 60);
-    font-size: 2.8vmax;
-    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.214));
+    width: 4vmax;
     
 }
 
@@ -22,10 +19,19 @@
 }
 
 .linksnavbar {
-    font-family: "Timmana", sans-serif;
-    color: rgb(129, 255, 133);
+    font-family: Satoshi-Black;
+    color: #00ff11;
     font-size: 1.5vmax;
 }
+.linksnavbar:hover {
+    
+    color: #ffffff !important;
+    
+}
+
+
+
+
 .toggle-container {
     display: flex;
     align-items: center;
@@ -59,7 +65,7 @@
   
 /* Estilo cuando el toggle está activo */
 .toggle.active {
-    background-color: #4caf50; /* Color de fondo cuando está activado */
+    background-color: #04970e; /* Color de fondo cuando está activado */
 }
   
 .toggle.active .toggle-ball {
@@ -69,7 +75,7 @@
 .toggle-label {
     margin-left: 8px; /* Espaciado a la izquierda de las etiquetas */
     font-size: 1.5vmax; /* Tamaño de fuente */
-    color: #5bff6e; /* Color del texto */
-    font-family: "Timmana", sans-serif;
+    color: #00ff11; /* Color del texto */
+    font-family: Satoshi-Black;
 }
   
