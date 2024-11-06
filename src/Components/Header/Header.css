@@ -304,7 +304,7 @@
     height: 250px;
     width: 250px;
     position: absolute;
-    top: 220px;
+    top: 120px;
     left: 50px;
     transform-style: preserve-3d;
     animation: animate 5s infinite;
@@ -371,7 +371,7 @@
   .box {
     height: 250px;
     width: 250px;
-    top: 240px;
+    top: 120px;
     left: 50px;
     
   
