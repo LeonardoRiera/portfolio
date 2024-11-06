@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
 import { useTranslation } from 'react-i18next';
 import './Navbar.css'; // Asegúrate de tener este archivo CSS
+import triangulo from "../../image/triangulo.png";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -16,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand  " href="#"><img src="../../src/image/triangulo.png" alt="logo" className='principalNavbar'/></a>
+        <a className="navbar-brand  " href="#"><img src={triangulo} alt="logo" className='principalNavbar'/></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
