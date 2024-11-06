@@ -150,7 +150,7 @@
   width: 30vw;
   position: relative;
   top: -10%;
-  right: 5%;
+  right: 0%;
   /* transform: translate(-50% -50%); */
   perspective: 1000px;
   display: flex;
@@ -162,13 +162,8 @@
   height: 250px;
   width: 250px;
   position: absolute;
-  top: 100px;
-  left: 100px;
   transform-style: preserve-3d;
   animation: animate 5s infinite;
- 
-  
- 
 
 }
 
@@ -286,6 +281,10 @@
 
 
 @media screen and (max-width:1200px) {
+
+  .HeaderContainer {
+    margin-top: 4vmax;
+  }
   .textoHeaderContainer {
     
     margin-top: -5vmax;
@@ -311,6 +310,14 @@
 
 @media screen and (max-width:992px) {
  
+
+  .container {
+    
+    top: 120px;
+    right: 20px;
+   
+  }
+
   .box {
     height: 250px;
     width: 250px;
@@ -381,13 +388,9 @@
   .container {
     height: 40vh;
     width: 30vw;
-    position: relative;
     top: -10%;
     right: 5%;
-    /* transform: translate(-50% -50%); */
-    perspective: 1000px;
-    display: flex;
-    align-items: center;
+   
     
   }
   
@@ -404,14 +407,19 @@
 
 @media screen and (max-width:835px)  {
 
- 
+  .container {
+    height: 40vh;
+    width: 30vw;
+    top: -10%;
+    right: 5%;
+    
+  }
+
+
   .box {
     height: 250px;
     width: 250px;
-    top: 120px;
-    left: 50px;
     
-  
   } 
 
   .textoHeaderContainer {
@@ -434,7 +442,7 @@
     height: 40vh;
     width: 30vw;
     position: relative;
-    top: -30%;
+    top: -45%;
     right: 5%;
     /* transform: translate(-50% -50%); */
     perspective: 1000px;
@@ -503,9 +511,10 @@
   .HeaderContainer {
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 110vmax; /* Tamaño completo de la pantalla */
+    height: 100vmax; /* Tamaño completo de la pantalla */
+    
     
   }
 
@@ -559,7 +568,7 @@
 
   .textoHeaderContainer {
     padding: 2vmax 5vmax 2vmax 5vmax;
-    margin-top: 5vmax;
+    margin-top: 0;
     
       
   }
@@ -739,7 +748,14 @@
     
   .HeaderContainer {
     height: 130vmax; /* Tamaño completo de la pantalla */
+    justify-content: center;
+  }
+
+  .textoHeaderContainer {
+    padding: 2vmax 5vmax 2vmax 5vmax;
+    margin-top: -15vmax;
     
+      
   }
     
 }
@@ -749,7 +765,7 @@
 @media screen and (max-width:325px) {
   
   .HeaderContainer {
-    height: 160vmax; /* Tamaño completo de la pantalla */
+    height: 140vmax; /* Tamaño completo de la pantalla */
     
   }
 
