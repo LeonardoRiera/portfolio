@@ -151,8 +151,10 @@
   position: relative;
   top: -10%;
   right: 5%;
-  transform: translate(-50% -50%);
+  /* transform: translate(-50% -50%); */
   perspective: 1000px;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -289,6 +291,15 @@
     margin-top: -5vmax;
       
   }
+  .container {
+    height: 40vh;
+    width: 30vw;
+   
+    
+    
+    
+  }
+  
  
     
 }
@@ -299,7 +310,7 @@
 
 
 @media screen and (max-width:992px) {
-
+ 
   .box {
     height: 250px;
     width: 250px;
@@ -365,6 +376,32 @@
 
 
 
+@media screen and (max-width:885px)  {
+
+  .container {
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    top: -10%;
+    right: 5%;
+    /* transform: translate(-50% -50%); */
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+ 
+
+
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
 @media screen and (max-width:835px)  {
 
  
@@ -393,7 +430,19 @@
 
 
 @media screen and (max-width:800px) {
-
+  .container {
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    top: -30%;
+    right: 5%;
+    /* transform: translate(-50% -50%); */
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
   .cvBoton {
     font-size: 1.4vmax;
     padding: 1vmax 7vmax;
@@ -461,7 +510,18 @@
   }
 
   /* animacion */
-
+  .container {
+    height: 40vh;
+    width: 30vw;
+    position: relative;
+    top: -10%;
+    right: 5%;
+    /* transform: translate(-50% -50%); */
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+    
+  }
   .box {
     height: 250px;
     width: 250px;
