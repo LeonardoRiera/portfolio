@@ -12,6 +12,12 @@
 
 /* seccion titulos header */
 
+
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
 .textoHeaderContainer {
   display: flex;
   flex-direction: column;
@@ -24,31 +30,40 @@
   
 }
 
+.fade-in {
+  animation: fadeIn 0.9s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
 .portfolioTitulito {
   font-family: Satoshi-Black;
   font-size: 1.8vmax;
   color: #00ff11;
   margin: 0;
   
+  
 }
 
-/* .saludo {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-  font-size: 4vmax;
-  margin: 0;
-  font-weight: 600;
- 
-} */
 
 .hache {
-  font-size: 6vmax;
+  font-size: 7vmax;
   
 }
 
 .nombre {
-  font-size: 5.5vmax;
- 
+  font-size: 6.5vmax;
+  display: inline-block; 
+  
   
   
   
@@ -63,45 +78,68 @@
 .textoPrincipal {
   font-family: Satoshi-Black;
   color: white;
-  font-size: 4vmax;
+  font-size: 5vmax;
   line-height: 1.1;
-  
-  
-  
- 
-
-   
+     
 }
 
 .profesion {
-  font-family: Satoshi-Black;
+  font-family: Satoshi-Medium;
   color: white;
   font-size: 1.2vmax;
   margin-top: 1vmax;
 }
-.profesionPropia {
+.profesionPropia { 
   color: #00ff11;
+  letter-spacing: 1.2px
 }
 
 .cvBoton {
   font-family: Satoshi-Black;
   font-size: 1.2vmax;
-  color: #00ff11;
+  color: #000000;
+  background-color: #00ff11;
   padding: 1vmax 5vmax;
-  background-color: transparent;
   border: 1px solid #00ff11 ;
   border-radius:5px;
-  margin-top: 1vmax;
+  margin-top: 3vmax;
   margin-left: 15%;
+  cursor: pointer;
+  position: relative; /* Posición relativa para el efecto glow */
+  overflow: hidden; /* Oculta el contenido que se sale del botón */
+  transform: perspective(500px); /* Perspectiva para el efecto 3D */
+  transition: all 0.4s ease; /* Transición suave para efectos */
 }
 
+
+
+
+/* Efecto de brillo (glow) */
+.cvBoton::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -70%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.066); /* Brillo blanco sutil */
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: rotate(60deg);
+}
+  
+ /* Efecto hover */
 .cvBoton:hover {
   border: 1px solid #00ff11 ;
-  background-color: #00ff11;
-  color: #000000;
-  
+  background-color: transparent;
+  color: #00ff11; 
 }
-
+  
+.cvBoton:hover::before {
+  opacity: 1;
+  top: -120%;
+  left: -110%;
+}
 
 
 
@@ -178,12 +216,8 @@
   position: absolute;
   transition: all 1s;
   font-family: "Kdam Thmor Pro", sans-serif;
-  
-  
   border-radius: 20%;
-  
-  
-  
+    
 }
 
 
@@ -197,9 +231,6 @@
   transform: translateZ(-125px);
   transform: translateZ(-180px) rotateY(360deg);
 }
-
-
-
 
 #left {
  /*  right: 125px; */
@@ -227,3 +258,448 @@
 }
 
 
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+  .textoHeaderContainer {
+    
+    margin-top: -5vmax;
+      
+  }
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+  .box {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    transform-style: preserve-3d;
+    animation: animate 5s infinite;
+   
+  } 
+    
+  .card {
+    height: 180px;
+    width: 180px;
+    font-size: 26px;
+     
+  }
+
+ 
+  #bottom{ 
+    transform: rotateX(-90deg);
+    top: 120px;
+    
+  }
+  
+  #right {
+    transform: rotateY(90deg);
+    left: 140px;
+  }
+
+  /* textos header */
+
+  .textoHeaderContainer {
+    padding: 2vmax 1vmax 2vmax 8vmax;
+    margin-top: -10vmax;
+      
+  }
+
+  .cvBoton {
+    font-size: 1.4vmax;
+    padding: 1.2vmax 8vmax;
+    margin-top: 3vmax;
+    margin-left: 10%;
+  }  
+
+  .cvBoton::before {
+    top: -50%;
+    left: -70%;
+    width: 300%;
+    height: 300%;
+    
+  }
+  
+  .cvBoton:hover::before {
+    opacity: 1;
+    top: -120%;
+    left: -155%;
+  }
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+ 
+  .box {
+    height: 250px;
+    width: 250px;
+    top: 240px;
+    left: 50px;
+    
+  
+  } 
+
+  .textoHeaderContainer {
+    padding: 2vmax 1vmax 2vmax 5vmax;
+    margin-top: -8vmax;
+    
+   
+    
+  }
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+  .cvBoton {
+    font-size: 1.4vmax;
+    padding: 1vmax 7vmax;
+    margin-top: 3vmax;
+    margin-left: 10%;
+  }
+
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+  .box {
+    height: 245px;
+    width: 245px;
+    
+    top: 220px;
+    left: 45px;
+    
+  } 
+    
+  .card {
+    height: 175px;
+    width: 175px;
+    font-size: 25px;
+     
+  }
+
+ 
+  #bottom{ 
+    transform: rotateX(-90deg);
+    top: 120px;
+    
+  }
+  
+  #right {
+    transform: rotateY(90deg);
+    left: 140px;
+  }
+ 
+
+  /* texts header */
+
+  .textoHeaderContainer {
+    padding: 2vmax 1vmax 2vmax 8vmax;
+    margin-top: -4vmax;
+      
+  }
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:767px) {
+  .HeaderContainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vmax; /* Tamaño completo de la pantalla */
+    
+  }
+
+  /* animacion */
+
+  .box {
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    left: 4%;
+   
+    
+  } 
+    
+  .card {
+    height: 180px;
+    width: 180px;
+    font-size: 25px;
+     
+  }
+
+ 
+  #bottom{ 
+    transform: rotateX(-90deg);
+    top: 120px;
+    
+  }
+  
+  #right {
+    transform: rotateY(90deg);
+    left: 140px;
+  }
+
+
+
+
+ 
+  /* header texts */
+
+
+  .textoHeaderContainer {
+    padding: 2vmax 5vmax 2vmax 5vmax;
+    margin-top: 5vmax;
+    
+      
+  }
+
+  .portfolioTitulito {
+    font-family: Satoshi-Black;
+    font-size: 1.8vmax;
+    color: #00ff11;
+    margin: 0;
+  
+  
+  }
+
+
+  .hache {
+    font-size: 8vmax;
+    
+  }
+
+  .nombre {
+    font-size: 10vmax;
+    display: inline-block; 
+    
+    
+    
+    
+  }
+
+  .apellido {
+    font-size: 8.5vmax;
+    
+  }
+
+
+  .textoPrincipal {
+    font-family: Satoshi-Black;
+    color: white;
+    font-size: 7vmax;
+    line-height: 1.1;
+      
+  }
+
+  .profesion {
+    font-family: Satoshi-Medium;
+    color: white;
+    font-size: 1.9vmax;
+    margin-top: 1vmax;
+  }
+
+  .cvBoton {
+    font-size: 1.4vmax;
+    padding: 1vmax 7vmax;
+    margin-top: 3vmax;
+    margin-left: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  .cvBoton {
+    font-size: 2vmax;
+    padding: 1.8vmax 9vmax;
+    margin-top: 3vmax;
+    margin-left: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+   
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+   
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+  .textoPrincipal {
+    font-family: Satoshi-Black;
+    color: white;
+    font-size: 6.5vmax;
+    line-height: 1.1;
+      
+  }
+   
+  .nombre {
+    font-size: 8.5vmax;
+    display: inline-block; 
+    
+    
+    
+    
+  }
+
+  .apellido {
+    font-size: 8vmax;
+    
+  }
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+  .box {
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    left: -20%;
+    
+    
+  } 
+    
+  .card {
+    height: 170px;
+    width: 170px;
+    font-size: 23px;
+     
+  }
+
+ 
+
+  #left {
+  /*  right: 125px; */
+    transform: rotateY(-90deg);
+    right: 180px;
+  }
+
+  #right {
+    /* left: 125px; */
+    transform: rotateY(90deg);
+    left: 140px;
+  }
+
+  #top {
+    /* bottom: 125px; */
+    transform: rotateX(90deg);
+    bottom: 170px;
+  }
+
+  #bottom{
+    /* top: 125px; */
+    transform: rotateX(-90deg);
+    top: 120px;
+    
+  }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+    
+  .HeaderContainer {
+    height: 130vmax; /* Tamaño completo de la pantalla */
+    
+  }
+    
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+  
+  .HeaderContainer {
+    height: 160vmax; /* Tamaño completo de la pantalla */
+    
+  }
+
+  .box {
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    left: -40%;
+    
+    
+  } 
+    
+}

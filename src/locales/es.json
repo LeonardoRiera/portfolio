@@ -46,6 +46,14 @@
     "web": "Diseño Web",
     "movile": "Diseño Móvil",
     "grafic": "Diseño Gráfico"
+  },
+
+  "headerTexts": {
+    "saludo": "ola! Soy",
+    "profesion": "Programador",
+    "y": "y",
+    "diseño": "DISEÑADOR GRÁFICO",
+    "descarga": "Descargar Cv" 
   }
 
 

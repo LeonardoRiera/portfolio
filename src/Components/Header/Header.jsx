@@ -1,22 +1,25 @@
 // Header.jsx
-
-import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import React, { useContext } from 'react';
 import './Header.css';
-import triangulo from '../../image/triangulo.png';
+import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
+import { useTranslation } from 'react-i18next';
+
 
 const Header = () => {
- 
+
+  const { t, i18n } = useTranslation();
+  const { language, setLanguage } = useContext(LanguageContext);
+
   return (
     <div className="HeaderContainer">
-      <div className='col-6 textoHeaderContainer'>
+      <div className='col-sm-12 col-md-6 textoHeaderContainer fade-in'>
         <p className='portfolioTitulito'>Portfolio</p>
-        <h1 className='textoPrincipal'><span className='hache'>H</span>ola! Soy<br /> <span className='nombre'>Leonardo</span><span className='apellido'> Riera</span></h1>
-        <p className='profesion'>Programador <span className='profesionPropia'>FRONTEND</span> y <span className='profesionPropia'>DISEÑADOR GRÁFICO</span> </p>
-        <p className='cvBoton'>Descargar Cv</p>
+        <h1 className='textoPrincipal'><span className='hache'>H</span>{t('headerTexts.saludo')}<br /><span className='nombre'>Leonardo</span><span className='apellido'>Riera</span></h1>
+        <p className='profesion'>{t('headerTexts.profesion')} <span className='profesionPropia'>FRONTEND</span>  {t('headerTexts.y')} <span className='profesionPropia'>{t('headerTexts.diseño')}</span> </p>
+        <p className='cvBoton'>{t('headerTexts.descarga')}</p>
       </div>
 
-      <div class="col-6 container">
+      <div class="col-sm-12 col-md-6 container">
     
         <div class="box">
           <div class="card" id="front">LEONARDO</div>

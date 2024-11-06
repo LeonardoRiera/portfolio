@@ -44,5 +44,14 @@
     "web": "Web Design",
     "movile": "Movile Design",
     "grafic": "Grafic Design"
+  },
+
+  "headerTexts": {
+    "h": "H",
+    "saludo": "i! I'm",
+    "profesion": "Developer",
+    "y": "and",
+    "diseño": "GRAPHIC DESIGNER",
+    "descarga": "Download Cv"  
   }
 }
