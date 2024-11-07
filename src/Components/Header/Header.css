@@ -164,6 +164,7 @@
   position: absolute;
   transform-style: preserve-3d;
   animation: animate 5s infinite;
+  border: none;
 
 }
 
