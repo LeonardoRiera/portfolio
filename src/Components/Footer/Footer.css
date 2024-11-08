@@ -422,7 +422,11 @@ left: -110%;
 
 @media screen and (max-width:469px) {
 
-  
+    .footerContenedor {
+        height: 45vmax;
+       
+        
+    }
     
 }
 
