@@ -129,7 +129,9 @@
 
 @media screen and (max-width:800px) {
   
-
+    .contenedorPrincipal {
+        margin-top: -2vmax;
+    }
 }
 
 
@@ -220,7 +222,10 @@
 
 @media screen and (max-width:391px) {
     
-  
+    .contenedorPrincipal {
+       
+        margin-top: -5vmax;
+    }
     
 }
 

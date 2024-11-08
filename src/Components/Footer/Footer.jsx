@@ -43,9 +43,9 @@ const Footer = () => {
 
           <div className="col12 linksContainerFooter">
 
-            <a href="#" className='links'><i class="bi bi-linkedin linksLogo"></i></a>
-            <a href="#" className='links'><i class="bi bi-github linksLogo"></i></a>
-            <a href="#" className='links'><i class="bi bi-envelope linksLogo"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-gabriel-riera-92567a283" className='links' target="blank" ><i class="bi bi-linkedin linksLogo"></i></a>
+            <a href="https://github.com/LeonardoRiera" className='links' target="blank" ><i class="bi bi-github linksLogo"></i></a>
+            <a href="mailto:leonardogabrielriera@gmail.com" className='links'><i class="bi bi-envelope linksLogo"></i></a>
 
           </div> 
           <div className="col12 botonContenedorFooter ">
