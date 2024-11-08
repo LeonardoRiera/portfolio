@@ -77,7 +77,7 @@
 
 .textoPrincipal {
   font-family: Satoshi-Black;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 5vmax;
   line-height: 1.1;
      
@@ -85,7 +85,7 @@
 
 .profesion {
   font-family: Satoshi-Medium;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1.2vmax;
   margin-top: 1vmax;
 }

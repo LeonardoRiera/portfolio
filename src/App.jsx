@@ -19,8 +19,9 @@ const App = () => {
 
           <Navbar />
           <Header />
-          <Proyects /> 
           <Faja />
+          <Proyects /> 
+          
           <Footer /> 
 
         </I18nextProvider>

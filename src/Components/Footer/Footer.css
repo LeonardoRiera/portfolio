@@ -1,40 +1,81 @@
 .footerContenedor {
-    height: 28vmax;
+    height: 35vmax;
     width: 100%;
+    margin-top: 5vmax;
     overflow: hidden;
+    
 
 }
 
+
+.titulofooterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+   
+}
+
+.circuloFooter {
+    width: 25vmax;
+    animation: girarInfinito 10s linear infinite;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.195)); /* Brillo alrededor del círculo */
+    position: absolute;
+    opacity: 0.8;
+}
+
+.circuloFooter2 {
+    width: 12vmax;
+    animation: girarInfinito 15s linear infinite;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.893)); /* Brillo alrededor del círculo */
+    position: absolute;
+    opacity: 0.5;
+}
+
 .contactame {
-    font-family: "Mrs Sheppards", cursive;
+    font-family: 'Chillax', sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 8vmax;
+    z-index: 10;
+    /* text-shadow: 5px 5px 2px rgb(0, 0, 0); */
+    filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
+}
+
+
+
+.footerPrincipal {
+    padding: 0 0vmax;
+    margin-top: 2vmax;
+}
+
+.primerContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logoFooter {
+    width: 12vmax;
+    animation: latido 3s ease-in-out infinite;
+}
+
+@keyframes latido {
+    0%, 100% {
+        transform: scale(1); /* Tamaño original */
+    }
+    50% {
+        transform: scale(1.1); /* Aumenta un 10% */
+    }
 }
 
 .tercerContainer {
     display: flex;
-    justify-content: end;
-    align-items: end;
-    padding: 5vmax;
-
-}
-.footerTitulo {
-
-    font-family: "Mrs Sheppards", cursive;
-    font-size: 4vmax;
-    color: #2bff00;
-    text-align: center;
-
-}
-
-
-.circuloFooter {
-    width: 20vmax;
-    animation: girarInfinito 20s linear infinite;
-    filter: drop-shadow(0 0 20px rgba(0, 255, 26, 0.823)); /* Brillo alrededor del círculo */
+    justify-content: start;
     
 }
+
   
 @keyframes girarInfinito {
     from {
@@ -44,3 +85,378 @@
       transform: rotate(360deg); /* Mantiene la inclinación durante la rotación */
     }
 }
+
+
+
+/* links */
+
+
+.linksContainerFooter {
+    margin-top: 5vmax;
+    display: flex;
+    justify-content: center;
+    gap: 2vmax;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 3vmax;
+    transition: transform 0.3s ease; 
+}
+
+.links:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+
+
+
+
+/* boton final */
+
+.botonContenedorFooter {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cvBoton2 {
+font-family: Satoshi-Black;
+font-size: 1.2vmax;
+color: #000000;
+background-color: #00ff11;
+padding: 1vmax 5vmax;
+border: 1px solid #00ff11 ;
+border-radius:5px;
+margin-top: 3vmax;
+cursor: pointer;
+position: relative; /* Posición relativa para el efecto glow */
+overflow: hidden; /* Oculta el contenido que se sale del botón */
+transform: perspective(500px); /* Perspectiva para el efecto 3D */
+transition: all 0.4s ease; /* Transición suave para efectos */
+}
+  
+  
+  
+  
+/* Efecto de brillo (glow) */
+.cvBoton2::before {
+content: "";
+position: absolute;
+top: -50%;
+left: -70%;
+width: 200%;
+height: 200%;
+background: rgba(255, 255, 255, 0.066); /* Brillo blanco sutil */
+opacity: 0;
+transition: all 0.5s ease;
+transform: rotate(60deg);
+}
+
+/* Efecto hover */
+.cvBoton2:hover {
+border: 1px solid #00ff11 ;
+background-color: transparent;
+color: #00ff11; 
+}
+
+.cvBoton2:hover::before {
+opacity: 1;
+top: -120%;
+left: -110%;
+}
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+  
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .footerContenedor {
+        height: 40vmax;
+       
+        
+    }
+ 
+    .cvBoton2 {
+        font-size: 1.8vmax;
+       
+    } 
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+    .circuloFooter {
+        width: 28vmax;
+    }
+    
+    .circuloFooter2 {
+        width: 15vmax;
+    }
+    
+
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+
+    .footerContenedor {
+        margin-top: 5vmax;
+        
+    }
+
+    /* links */
+
+
+    .linksContainerFooter {
+        margin-top: 5vmax;
+        justify-content: center;
+        gap: 2.5vmax;
+    }
+
+    .links {
+        font-size: 4.5vmax;
+    }
+
+
+    /* boton final */
+
+    .botonContenedorFooter {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .cvBoton2 {
+        font-size: 1.8vmax;
+        padding: 1.5vmax 8vmax;
+        margin-top: 3vmax;
+    }
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+    .primerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tercerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .logoFooter {
+        width: 8vmax;
+    }
+
+    .cvBoton2 {
+        font-size: 1.8vmax;
+        padding: 1.5vmax 8vmax;
+        margin-top: 3vmax;
+    }
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .footerContenedor {
+        height: 42vmax;
+       
+        
+    }
+
+    .contactame {
+        font-size: 8.5vmax;
+       
+    }
+
+    .logoFooter {
+        width: 12vmax;
+    }
+
+    .links {
+        font-size: 4.8vmax;
+    }
+
+    .circuloFooter {
+        width: 30vmax;
+    }
+    
+    .circuloFooter2 {
+        width: 17vmax;
+    }
+    
+  
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:767px) {
+
+    .contactame {
+        font-size: 7.5vmax;
+       
+    }
+
+    .logoFooter {
+        width: 10vmax;
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+   
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+   
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    .titulofooterContainer {
+        padding-top: 3vmax;
+    }
+
+    .contactame {
+        font-size: 7vmax;
+       
+    }
+
+    .logoFooter {
+        /* width:8vmax; */
+        display: none;
+    }
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+  
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+    
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    .footerContenedor {
+        height: 48vmax;
+       
+        
+    }
+
+    .contactame {
+        font-size: 9vmax;
+       
+    }
+
+    .circuloFooter {
+        width: 40vmax;
+    }
+    
+    .circuloFooter2 {
+        width: 27vmax;
+    }
+    
+ 
+    
+}  
+  

@@ -37,11 +37,11 @@ const Navbar = () => {
           {/* toogle */}
           <div className="toggle-container" onClick={toggleLanguage}>
             
-            <span className="toggle-label">ES</span>
+            <span className="toggle-label">Es</span>
             <div className={`toggle ${language === 'en' ? 'active' : ''}`}>
               <span className="toggle-ball"></span>
             </div>
-            <span className="toggle-label">EN</span>
+            <span className="toggle-label">En</span>
           </div>
 
         </div>

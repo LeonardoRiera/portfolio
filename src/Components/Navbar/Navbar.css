@@ -1,3 +1,4 @@
+
 .navbar {
     /* background-color: black; */
     /* border-bottom: #5bff6e solid 2px; */
@@ -25,7 +26,7 @@
 }
 .linksnavbar:hover {
     
-    color: #ffffff !important;
+    color: rgb(255, 255, 255) !important;
     
 }
 
@@ -44,7 +45,7 @@
 .toggle {
     width: 60px; /* Ancho del toggle */
     height: 30px; /* Alto del toggle */
-    background-color: #ccc; /* Color de fondo del toggle */
+    background-color: #00ff11c8; /* Color de fondo del toggle */
     border-radius: 30px; /* Bordes redondeados */
     display: flex;
     align-items: center;
@@ -55,7 +56,7 @@
 .toggle-ball {
     width: 26px; /* Ancho de la bolita */
     height: 26px; /* Alto de la bolita */
-    background-color: white; /* Color de la bolita */
+    background-color:  rgb(255, 255, 255); /* Color de la bolita */
     border-radius: 50%; /* Hacemos la bolita redonda */
     position: absolute; /* Posición absoluta para mover la bolita */
     top: 2px; /* Ajuste vertical */
@@ -65,7 +66,7 @@
   
 /* Estilo cuando el toggle está activo */
 .toggle.active {
-    background-color: #04970e; /* Color de fondo cuando está activado */
+    background-color: #00ff11d8; /* Color de fondo cuando está activado */
 }
   
 .toggle.active .toggle-ball {
@@ -74,7 +75,7 @@
   
 .toggle-label {
     margin-left: 8px; /* Espaciado a la izquierda de las etiquetas */
-    font-size: 1.5vmax; /* Tamaño de fuente */
+    font-size: 1.2vmax; /* Tamaño de fuente */
     color: #00ff11; /* Color del texto */
     font-family: Satoshi-Black;
 }

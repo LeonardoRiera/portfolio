@@ -1,5 +1,6 @@
 .contenedorPrincipal {
     overflow: hidden; 
+    margin-top: -8vmax;
 }
 
 .fajaContainer {
@@ -9,19 +10,18 @@
     overflow: hidden;       /* Oculta el texto que sale de la caja */
     white-space: nowrap;    /* Evita que el texto se divida en varias líneas */
     width: 100%;            /* Ancho completo del contenedor */
-    height: 20vmax;
-    color: #ffffff;            /* Color del texto */
+    height: 22vmax;
+    color: rgb(255, 255, 255);            /* Color del texto */
          /* Tamaño del texto */
     padding: 10px 0;
-    transform: rotate(-2deg)   
+    transform: rotate(-2deg);   
+    justify-content: end;
 }
-.marquee {
-  
-    
-}
+
 .marquee-item {
-    font-size: 12rem; 
+    font-size: 11rem; 
     font-family: 'Melodrama', serif;
+    
     
 }
   
