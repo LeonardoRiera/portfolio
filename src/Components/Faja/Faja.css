@@ -1,6 +1,6 @@
 .contenedorPrincipal {
     overflow: hidden; 
-    margin-top: -8vmax;
+    
 }
 
 .fajaContainer {
@@ -129,11 +129,8 @@
 
 @media screen and (max-width:800px) {
   
-    .contenedorPrincipal {
-        margin-top: -2vmax;
-    }
+    
 }
-
 
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 
@@ -222,10 +219,7 @@
 
 @media screen and (max-width:391px) {
     
-    .contenedorPrincipal {
-       
-        margin-top: -5vmax;
-    }
+   
     
 }
 

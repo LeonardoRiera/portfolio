@@ -17,12 +17,12 @@ const Proyects = () => {
 
 
   // Estado para controlar si el offcanvas está abierto o cerrado
-  const [isOpen, setIsOpen] = useState(false);
+ /*  const [isOpen, setIsOpen] = useState(false); */
 
   // Función para abrir/cerrar el offcanvas
-  const toggleOffcanvas = () => {
+  /* const toggleOffcanvas = () => {
     setIsOpen(!isOpen);
-  };
+  }; */
 
   useEffect(() => {
     // Inicializa todos los tooltips en el componente usando JavaScript de Bootstrap

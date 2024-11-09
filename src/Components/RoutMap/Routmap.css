@@ -1,0 +1,113 @@
+.routmapContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 5vmax;
+    padding: 2vmax;
+}
+
+.routMap {
+    animation: cambioOpacidad 4s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+
+.routMap1 {
+    animation: cambioOpacidad 3.8s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+.routMap2 {
+    animation: cambioOpacidad 3.75s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+.routMap3 {
+    animation: cambioOpacidad 3.73s ease-in-out infinite;
+   
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vmax;
+    margin-top: -1.75vmax;
+   
+}
+
+.routMap4 {
+    animation: cambioOpacidad 3.7s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -1.75vmax;
+}
+
+.routMap5 {
+    animation: cambioOpacidad 3.6s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+.routMap6 {
+    animation: cambioOpacidad 3.5s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+.routMap7 {
+    animation: cambioOpacidad 3.4s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -2.7vmax;
+}
+
+.routMap8 {
+    animation: cambioOpacidad 3.45s ease-in-out infinite;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vmax;
+    margin-top: -1.75vmax;
+}
+
+.routMap9 {
+    animation: cambioOpacidad 3.3s ease-in-out infinite;
+    font-family: 'Author', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmax;
+    margin-top: -1.75vmax;
+}
+
+
+@keyframes cambioOpacidad {
+    0% {
+      color: rgba(0, 255, 26, 0.149); /* Empieza con opacidad baja */
+    }
+    50% {
+      color: rgba(0, 255, 26, 0.666); /* Sube la opacidad a tu valor original */
+    }
+    100% {
+      color: rgba(0, 255, 26, 0.158); /* Vuelve a bajar la opacidad */
+    }
+  }
+  

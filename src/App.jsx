@@ -8,6 +8,8 @@ import Header from './Components/Header/Header.jsx';
 import Proyects from './Components/Proyects/Proyects.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Faja from './Components/Faja/Faja.jsx';
+import AboutMe from './Components/AboutMe/AboutMe.jsx'
+import RoutMap from './Components/RoutMap/RoutMap.jsx';
 
 const App = () => {
   return (
@@ -19,9 +21,9 @@ const App = () => {
 
           <Navbar />
           <Header />
-          <Faja />
-          <Proyects /> 
-          
+          <AboutMe />
+          <Proyects />  
+          <Faja />         
           <Footer /> 
 
         </I18nextProvider>
