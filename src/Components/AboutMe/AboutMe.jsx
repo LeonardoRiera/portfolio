@@ -16,7 +16,7 @@ const AboutMe = () => {
 
       <div className='row'>
 
-        <div className='col-6 stackContainer'>
+        <div className='col-xs-12 col-sm-6 stackContainer'>
 
           <div className='stackImagen'>
 
@@ -125,7 +125,7 @@ const AboutMe = () => {
 
         </div>
 
-        <div className='col-6 aboutFotoContainer'>
+        <div className='col-xs-12 col-sm-6 aboutFotoContainer'>
 
           <div className='aboutFoto'>
 
