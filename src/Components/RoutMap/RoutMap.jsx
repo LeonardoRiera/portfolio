@@ -1,5 +1,5 @@
 import React from 'react';
-import './RoutMap.css';
+import './Routmap.css';
 
 const RoutMap = () => {
   return (
