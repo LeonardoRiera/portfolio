@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
+import './AboutMe.css';
 import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
 import { useTranslation } from 'react-i18next';
 import bubble from '../../image/bubble.svg'
 import RoutMap from '../RoutMap/RoutMap.jsx';
-import './AboutMe.css';
+
 
 const AboutMe = () => {
 
