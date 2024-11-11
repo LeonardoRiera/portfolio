@@ -15,50 +15,67 @@ const Footer = () => {
 
   return (
     <div className='footerContenedor'>
+     
+      <div className='row footerPrincipal'>
 
-       
-        <div className='row footerPrincipal'>
+          <div className="col-3 primerContainer">
+              <img src={triangulo} alt="logoFooter" className='logoFooter'/> 
+          </div>
 
-            <div className="col-3 primerContainer">
-               <img src={triangulo} alt="logoFooter" className='logoFooter'/> 
-            </div>
+          <div className="col-6 titulofooterContainer">
 
-            <div className="col-6 titulofooterContainer">
-
-                <p className='contactame'>{t('footer.contacto')}</p>
-                <img src={circulo} alt="" className='circuloFooter' />
-                <img src={circulo} alt="" className='circuloFooter2' />
-
-            </div>
-
-            <div className="col-3 tercerContainer">
-
-             <img src={triangulo} alt="logoFooter" className='logoFooter'/> 
-
-            </div>
-
-        </div>
-
-        <div className='row'>
-
-          <div className="col12 linksContainerFooter">
-
-            <a href="https://www.linkedin.com/in/leonardo-gabriel-riera-92567a283" className='links' target="blank" ><i class="bi bi-linkedin linksLogo"></i></a>
-            <a href="https://github.com/LeonardoRiera" className='links' target="blank" ><i class="bi bi-github linksLogo"></i></a>
-            <a href="mailto:leonardogabrielriera@gmail.com" className='links'><i class="bi bi-envelope linksLogo"></i></a>
-
-          </div> 
-          <div className="col12 botonContenedorFooter ">
-
-            <p className='cvBoton2'>{t('headerTexts.descarga')}</p>
+              <p className='contactame'>{t('footer.contacto')}</p>
+              <img src={circulo} alt="" className='circuloFooter' />
+              <img src={circulo} alt="" className='circuloFooter2' />
 
           </div>
 
-            
+          <div className="col-3 tercerContainer">
 
+            <img src={triangulo} alt="logoFooter" className='logoFooter'/> 
 
-            
+          </div>
+
+      </div>
+
+      <div className='row contactosFooter'>
+
+        
+
+        <div className='col-6 linksContainer'>
+
+          <a href="https://www.linkedin.com/in/leonardo-gabriel-riera-92567a283" className='links' target="blank" ><i class="bi bi-linkedin linksLogo"></i></a>
+          <a href="https://github.com/LeonardoRiera" className='links' target="blank" ><i class="bi bi-github linksLogo"></i></a>
+          <a href="mailto:leonardogabrielriera@gmail.com" className='links'><i class="bi bi-envelope linksLogo"></i></a>
+
         </div>
+      
+        <div className="col-6 botonContenedorFooter ">
+
+          <p className='cvBoton2'>{t('headerTexts.descarga')}</p>
+
+        </div>
+          
+      </div>
+
+      
+      <div className='row'>
+        <div className='col-12 finalContainer'>
+
+          
+          <hr  className='linea'/>
+          
+
+          <div>
+            <a href="#"><img src={triangulo} alt="logoFooter" className='logoFooter2'/></a> 
+          </div>
+
+          
+          <hr  className='linea'/>
+          
+
+        </div>
+      </div>
 
     </div>
        

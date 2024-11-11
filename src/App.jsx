@@ -22,9 +22,10 @@ const App = () => {
           <Navbar />
           <Header />
           <AboutMe />
-          <Proyects />  
-          <Faja />         
+          <Faja />
+          <Proyects />        
           <Footer /> 
+           
 
         </I18nextProvider>
 

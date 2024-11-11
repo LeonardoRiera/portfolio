@@ -1,10 +1,15 @@
 .footerContenedor {
-    height: 35vmax;
+    height: 34vmax;
     width: 100%;
     overflow: hidden;
+    margin-top: 5vmax;
     
 
 }
+
+
+
+
 
 
 .titulofooterContainer {
@@ -12,6 +17,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    
     
    
 }
@@ -89,12 +95,21 @@
 
 /* links */
 
-
-.linksContainerFooter {
-    margin-top: 5vmax;
+.contactosFooter {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 2vmax;
+    align-items: center;
+    padding: 1vmax 28vmax;  /* importante para el responsive! */
+    margin-top: 2.5vmax;
+}
+
+
+.linksContainer {
+ gap: 2vmax;
+ display: flex;
+ justify-content: start;
+ 
 }
 
 .links {
@@ -116,7 +131,8 @@
 
 .botonContenedorFooter {
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    align-items: center;
 }
 
 
@@ -129,7 +145,6 @@ background-color: #00ff11;
 padding: 1vmax 5vmax;
 border: 1px solid #00ff11 ;
 border-radius:5px;
-margin-top: 3vmax;
 cursor: pointer;
 position: relative; /* Posición relativa para el efecto glow */
 overflow: hidden; /* Oculta el contenido que se sale del botón */
@@ -167,6 +182,40 @@ top: -120%;
 left: -110%;
 }
 
+
+
+.finalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vmax;
+    gap: 2vmax;
+
+}
+
+.linea {
+    color: #00ff11d7;
+    width:20%;
+    justify-self: center;
+   /*  margin-bottom: 1vmax;
+    margin-top: 1vmax; */
+    border: 1px solid #00ff11ce ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #00ff1139; /* Efecto de brillo alrededor */
+    
+}
+
+.logoFooter2 {
+    width: 4vmax;
+    opacity: 0.3;
+    transform: rotate(60deg);
+   
+}
+
+.logoFooter2:hover {
+    opacity: 1;
+}
 
 
 
@@ -222,6 +271,41 @@ left: -110%;
        
     } 
 
+    .contactosFooter {
+        padding: 1vmax 16vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
+    }
+
+
+
+    .linksContainer {
+        gap: 2.5vmax;
+       
+        
+    }
+       
+
+
+    .links {
+        font-size: 4vmax; 
+    }
+
+
+
+    /* linea final */
+
+    .linea {
+        width:30%;
+        
+    }
+    
+    .logoFooter2 {
+        width: 6vmax;
+       
+       
+    }
+    
+
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
@@ -249,23 +333,28 @@ left: -110%;
 
 @media screen and (max-width:835px)  {
 
-
+   
     .footerContenedor {
         margin-top: 5vmax;
+        height: 44vmax;
         
+    }
+
+    .contactosFooter {
+        padding: 1vmax 10vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
     }
 
     /* links */
 
 
-    .linksContainerFooter {
-        margin-top: 5vmax;
+    .linksContainer {
         justify-content: center;
         gap: 2.5vmax;
     }
 
     .links {
-        font-size: 4.5vmax;
+        font-size: 4.2vmax;
     }
 
 
@@ -280,7 +369,7 @@ left: -110%;
 
     .cvBoton2 {
         font-size: 1.8vmax;
-        padding: 1.5vmax 8vmax;
+        padding: 1.2vmax 4vmax;
         margin-top: 3vmax;
     }
     
@@ -293,6 +382,12 @@ left: -110%;
 
 
 @media screen and (max-width:800px) {
+
+
+    .contactosFooter {
+        padding: 1vmax 8vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
+    }
 
     .primerContainer {
         display: flex;
@@ -308,12 +403,12 @@ left: -110%;
     }
     
     .logoFooter {
-        width: 8vmax;
+        width: 7vmax;
     }
 
     .cvBoton2 {
         font-size: 1.8vmax;
-        padding: 1.5vmax 8vmax;
+        padding: 1.5vmax 4vmax;
         margin-top: 3vmax;
     }
  
@@ -326,8 +421,14 @@ left: -110%;
 
 @media screen and (max-width:768px) {
 
+    
+    .contactosFooter {
+        padding: 1vmax 9vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
+    }
+
     .footerContenedor {
-        height: 42vmax;
+        height: 44vmax;
        
         
     }
@@ -389,14 +490,54 @@ left: -110%;
 
 @media screen and (max-width:576px) {
 
-   
+    .contactosFooter {
+        padding: 1vmax 6vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
+    }
+
+    .linksContainer {
+        justify-content: center;
+        gap: 2.5vmax;
+    }
+
+    .links {
+        font-size: 4vmax;
+    }
+
+
+    /* boton final */
+
+    .botonContenedorFooter {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .cvBoton2 {
+        font-size: 2vmax;
+        padding: 1vmax 3vmax;
+        margin-top: 3vmax;
+    }
+    
 
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:543px) {
+
+    .footerContenedor {
+        margin-top: 5vmax;
+        height: 52vmax;
+        
+    }
    
+    .contactosFooter {
+        flex-direction: column;
+        padding: 1vmax 1vmax;  /* importante para el responsive! */
+        margin-top: 6vmax;
+    }
     
     
 }
@@ -406,10 +547,12 @@ left: -110%;
 
 @media screen and (max-width:481px) {
 
-    .titulofooterContainer {
-        padding-top: 3vmax;
+    
+    .footerContenedor {
+        margin-top: 5vmax;
+        height: 54vmax;
+        
     }
-
     .contactame {
         font-size: 7vmax;
        
@@ -425,10 +568,30 @@ left: -110%;
 
 @media screen and (max-width:469px) {
 
+    .contactosFooter {
+        padding: 1vmax 1vmax;  /* importante para el responsive! */
+        margin-top: 4vmax;
+    }
+
     .footerContenedor {
-        height: 45vmax;
-       
+        margin-top: 5vmax;
+        height: 56vmax;
         
+    }
+
+    .linksContainer {
+        gap: 3.5vmax;
+    }
+
+    .links {
+        font-size: 5.5vmax;
+    }
+
+    
+    .cvBoton2 {
+        font-size: 2.1vmax;
+        padding: 1vmax 3vmax;
+        margin-top: 4vmax;
     }
     
 }
@@ -438,7 +601,11 @@ left: -110%;
 
 @media screen and (max-width:391px) {
  
-    
+    .cvBoton2 {
+        font-size: 2.2vmax;
+        padding: 1vmax 2vmax;
+        margin-top: 4vmax;
+    }
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
@@ -449,6 +616,10 @@ left: -110%;
        
         
     }
+
+    
+    
+
 
     .contactame {
         font-size: 9vmax;
@@ -462,6 +633,13 @@ left: -110%;
     .circuloFooter2 {
         width: 27vmax;
     }
+
+    .cvBoton2 {
+        font-size: 2.7vmax;
+        padding: 1vmax 4vmax;
+        margin-top: 4vmax;
+    }
+
     
  
     
