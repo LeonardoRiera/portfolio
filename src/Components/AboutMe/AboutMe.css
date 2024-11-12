@@ -288,6 +288,14 @@ left: -110%;
         margin-top: 2.7vmax;
     }
     
+    .otros {
+        margin-top: 2.3vmax;
+    }
+
+    .idiomas {
+        margin-top: 2.3vmax;
+    }
+
 
    /* imagenes en general */
     .imageAbout {
@@ -319,6 +327,11 @@ left: -110%;
 
 @media screen and (max-width:800px) {
 
+    .otros, .idiomas  {
+        margin-top: 2.7vmax;
+    }
+
+   
 
 }
 
@@ -541,7 +554,10 @@ left: -110%;
 
 @media screen and (max-width:543px) {
 
-    
+     /* bloque datos solo */
+     .stackTexto {
+        margin-left: 0;
+    }
     
 }
 
@@ -742,10 +758,7 @@ left: -110%;
         width: 100%;
     }
 
-    /* bloque datos solo */
-    .stackTexto {
-        margin-left: 2.5vmax;
-    }
+   
 
     /* bloques individuales de staks */
     .frontend {
@@ -840,6 +853,47 @@ left: -110%;
         margin-top: 2.8vmax;
     }
    
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:380px) {
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 2vmax;
+    }
+
+    .diseñador {
+        margin-top: 3vmax;
+    }
+
+    .otros {
+        margin-top: 2.8vmax;
+    }
+
+    .idiomas {
+        margin-top: 2.8vmax;
+    }
+
+       /* titulo */
+    .frontTitle {
+        font-size: 3vmax;
+    }
+
+    .frontLogos i {
+        font-size: 3.2vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 3.2vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 3.2vmax;
+    
+    }
+     
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
