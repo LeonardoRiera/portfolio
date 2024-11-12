@@ -358,7 +358,7 @@ left: -110%;
 
     /* bloque especifico de rowMap y datos */
     .stackContainer {
-        padding: 12vmax 3vmax 12vmax 8vmax;
+        padding: 12vmax 3vmax 12vmax 3vmax;
         width: 100%;
     }
 
@@ -455,12 +455,7 @@ left: -110%;
            
     }
 
-    /* bloque especifico de rowMap y datos */
-    .stackContainer {
-        padding: 12vmax 3vmax 12vmax 8vmax;
-        width: 100%;
-    }
-
+    
     /* bloque datos solo */
     .stackTexto {
         margin-left: 3vmax;
@@ -571,11 +566,7 @@ left: -110%;
            
     }
 
-    /* bloque especifico de rowMap y datos */
-    .stackContainer {
-        padding: 12vmax 3vmax 12vmax 4vmax;
-        width: 100%;
-    }
+    
 
     /* bloque datos solo */
     .stackTexto {
@@ -663,12 +654,7 @@ left: -110%;
            
     }
 
-    /* bloque especifico de rowMap y datos */
-    .stackContainer {
-        padding: 12vmax 3vmax 12vmax 8vmax;
-        width: 100%;
-    }
-
+    
     /* bloque datos solo */
     .stackTexto {
         margin-left: 3vmax;
@@ -752,12 +738,7 @@ left: -110%;
            
     }
 
-    /* bloque especifico de rowMap y datos */
-    .stackContainer {
-        padding: 12vmax 3vmax 12vmax 4vmax;
-        width: 100%;
-    }
-
+    
    
 
     /* bloques individuales de staks */
@@ -900,11 +881,7 @@ left: -110%;
 
 @media screen and (max-width:325px) {
    
-    /* bloque especifico de rowMap y datos */
-    .stackContainer {
-        padding: 12vmax 2vmax 12vmax 5vmax;
-        width: 100%;
-    }
+    
  
     
 }
