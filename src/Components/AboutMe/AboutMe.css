@@ -329,12 +329,97 @@ left: -110%;
 
 @media screen and (max-width:768px) {
 
+    /* row gral */
     .principalRow {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 8vmax;
         
     }
+
+    /* contenedor gral */
+    .aboutMeContainer {
+        padding: 0 2vmax;
+           
+    }
+
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 3vmax 12vmax 8vmax;
+        width: 100%;
+    }
+
+    /* bloque datos solo */
+    .stackTexto {
+        margin-left: 3vmax;
+    }
+
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 2.4vmax;
+    }
+
+    .diseñador {
+        margin-top: 3.1vmax;
+    }
+
+    .otros {
+        margin-top: 3.6vmax;
+    }
+
+    .idiomas {
+        margin-top: 3.3vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 4vmax;
+    }
+
+    .imageAbout2 {
+        width: 4vmax;
+    }
+
+
+
+
+    /* titulo */
+    .frontTitle {
+        font-size: 4vmax;
+    }
+
+    .frontLogos i {
+        font-size: 4vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 4vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 4vmax;
+    
+    }
+
+    .idiomasGral {
+        font-size: 2vmax;
+    }
+
+    /* distancia entre logos gral */
+    .frontLogos, .diseñoLogos, .otrosLogos {
+        gap: 2vmax;
+    }
+
+    .idiomasCont {
+        gap: 1vmax;
+    }
+
+    .estrellas {
+        gap: 1vmax ;
+    }    
+    
   
 }
 
@@ -350,9 +435,96 @@ left: -110%;
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:636px) {
+   
+    /* contenedor gral */
+    .aboutMeContainer {
+        padding: 0 2vmax;
+           
+    }
+
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 3vmax 12vmax 8vmax;
+        width: 100%;
+    }
+
+    /* bloque datos solo */
+    .stackTexto {
+        margin-left: 3vmax;
+    }
+
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 2.4vmax;
+    }
+
+    .diseñador {
+        margin-top: 4.5vmax;
+    }
+
+    .otros {
+        margin-top: 4.5vmax;
+    }
+
+    .idiomas {
+        margin-top: 4.4vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 3.5vmax;
+    }
+
+    .imageAbout2 {
+        width: 3.5vmax;
+    }
+
+
+
+
+    /* titulo */
+    .frontTitle {
+        font-size: 3.5vmax;
+    }
+
+    .frontLogos i {
+        font-size: 3.5vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 3.5vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 3.5vmax;
+    
+    }
+
+    .idiomasGral {
+        font-size: 2vmax;
+    }
+
+    /* distancia entre logos gral */
+    .frontLogos, .diseñoLogos, .otrosLogos {
+        gap: 2vmax;
+    }
+
+    .idiomasCont {
+        gap: 1vmax;
+    }
+
+    .estrellas {
+        gap: 1vmax ;
+    }    
     
   
+  
 }
+
+
+
 
 
 
@@ -377,7 +549,90 @@ left: -110%;
 /* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:481px) {
+    /* contenedor gral */
+    .aboutMeContainer {
+        padding: 0;
+           
+    }
 
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 3vmax 12vmax 4vmax;
+        width: 100%;
+    }
+
+    /* bloque datos solo */
+    .stackTexto {
+        margin-left: 2.5vmax;
+    }
+
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 1.1vmax;
+    }
+
+    .diseñador {
+        margin-top: 3.1vmax;
+    }
+
+    .otros {
+        margin-top: 2.9vmax;
+    }
+
+    .idiomas {
+        margin-top: 3.5vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 3.5vmax;
+    }
+
+    .imageAbout2 {
+        width: 2.5vmax;
+    }
+
+
+
+
+    /* titulo */
+    .frontTitle {
+        font-size: 2.5vmax;
+    }
+
+    .frontLogos i {
+        font-size: 2.5vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 2.5vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 2.5vmax;
+    
+    }
+
+    .idiomasGral {
+        font-size: 1.5vmax;
+    }
+
+    /* distancia entre logos gral */
+    .frontLogos, .diseñoLogos, .otrosLogos {
+        gap: 2vmax;
+    }
+
+    .idiomasCont {
+        gap: 1vmax;
+    }
+
+    .estrellas {
+        gap: 1vmax ;
+    }    
+    
+  
 } 
    
  
@@ -385,15 +640,205 @@ left: -110%;
 /* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:469px) {
-
     
+    /* contenedor gral */
+    .aboutMeContainer {
+        padding: 0 2vmax;
+           
+    }
+
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 3vmax 12vmax 8vmax;
+        width: 100%;
+    }
+
+    /* bloque datos solo */
+    .stackTexto {
+        margin-left: 3vmax;
+    }
+
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 2.4vmax;
+    }
+
+    .diseñador {
+        margin-top: 4.5vmax;
+    }
+
+    .otros {
+        margin-top: 4.5vmax;
+    }
+
+    .idiomas {
+        margin-top: 4.4vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 3.5vmax;
+    }
+
+    .imageAbout2 {
+        width: 3.5vmax;
+    }
+
+
+
+
+    /* titulo */
+    .frontTitle {
+        font-size: 3.5vmax;
+    }
+
+    .frontLogos i {
+        font-size: 3.5vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 3.5vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 3.5vmax;
+    
+    }
+
+    .idiomasGral {
+        font-size: 2vmax;
+    }
+
+    /* distancia entre logos gral */
+    .frontLogos, .diseñoLogos, .otrosLogos {
+        gap: 2vmax;
+    }
+
+    .idiomasCont {
+        gap: 1vmax;
+    }
+
+    .estrellas {
+        gap: 1vmax ;
+    }  
+    
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:431px) {
+
+   /* contenedor gral */
+    .aboutMeContainer {
+        padding: 0;
+           
+    }
+
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 3vmax 12vmax 4vmax;
+        width: 100%;
+    }
+
+    /* bloque datos solo */
+    .stackTexto {
+        margin-left: 2.5vmax;
+    }
+
+    /* bloques individuales de staks */
+    .frontend {
+        margin-top: 1.4vmax;
+    }
+
+    .diseñador {
+        margin-top: 2.6vmax;
+    }
+
+    .otros {
+        margin-top: 2.8vmax;
+    }
+
+    .idiomas {
+        margin-top: 2.3vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 3.5vmax;
+    }
+
+    .imageAbout2 {
+        width: 2.5vmax;
+    }
+
+
+
+
+    /* titulo */
+    .frontTitle {
+        font-size: 3.5vmax;
+    }
+
+    .frontLogos i {
+        font-size: 3.5vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 3.5vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 3.5vmax;
+    
+    }
+
+    .idiomasGral {
+        font-size: 1.5vmax;
+        margin-bottom: 0;
+    }
+
+    /* distancia entre logos gral */
+    .frontLogos, .diseñoLogos, .otrosLogos {
+        gap: 2vmax;
+    }
+
+    .idiomasCont {
+        gap: 1vmax;
+    }
+
+    .estrellas {
+        gap: 1vmax ;
+        margin-bottom: 0.5vmax;
+    }    
+    
+  
+   
 }
 
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:391px) {
- 
+  /* bloques individuales de staks */
+    .frontend {
+        margin-top: 2vmax;
+    }
+
+    .diseñador {
+        margin-top: 3vmax;
+    }
+
+    .otros {
+        margin-top: 2.8vmax;
+    }
+
+    .idiomas {
+        margin-top: 2.8vmax;
+    }
    
 }
 
@@ -401,7 +846,11 @@ left: -110%;
 
 @media screen and (max-width:325px) {
    
-    
+    /* bloque especifico de rowMap y datos */
+    .stackContainer {
+        padding: 12vmax 2vmax 12vmax 5vmax;
+        width: 100%;
+    }
  
     
 }

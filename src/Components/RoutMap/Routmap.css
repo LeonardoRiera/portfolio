@@ -7,6 +7,8 @@
     padding: 2vmax;
 }
 
+/* abreviar */
+
 .routMap {
     animation: cambioOpacidad 4s ease-in-out infinite;
     font-family: 'Author', sans-serif;
@@ -144,7 +146,7 @@
 
 
 @media screen and (max-width:1200px) {
-
+    /* abreviar */
     .routMap {
         font-size: 3.1vmax;
         margin-top: -2.7vmax;
@@ -250,60 +252,23 @@
 
 @media screen and (max-width:768px) {
 
-    .routMap {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
+    /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+    .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+        font-size: 4.8vmax;
+        margin-top: -4.25vmax;
     }
-    
-    
-    .routMap1 {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
-    }
-    
-    .routMap2 {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
-    }
-    
-    .routMap3 {
-        font-size: 2vmax;
-        margin-top: -1.75vmax;
-       
-    }
-    
-    .routMap4 {
-        font-size: 3.5vmax;
-        margin-top: -1.75vmax;
-    }
-    
-    .routMap5 {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
-    }
-    
-    .routMap6 {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
-    }
-    
-    .routMap7 {
-        font-size: 3.5vmax;
-        margin-top: -3.1vmax;
-    }
-    
-    .routMap8 {
-        font-size: 2vmax;
-        margin-top: -1.75vmax;
-    }
-    
-    .routMap9 {
 
-        font-size: 3.5vmax;
-        margin-top: -1.75vmax;
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 3.3vmax;
+        margin-top: -2.90vmax;
     }
-    
-    
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 4.8vmax;
+        margin-top: -2.90vmax;
+    }
  
 }
 
@@ -338,7 +303,24 @@
 /* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:481px) {
+    
+    /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+    .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+        font-size: 3.8vmax;
+        margin-top: -3.45vmax;
+    }
 
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 2.3vmax;
+        margin-top: -2.10vmax;
+    }
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 3.8vmax;
+        margin-top: -2.10vmax;
+    }
 } 
    
  
@@ -347,14 +329,71 @@
 
 @media screen and (max-width:469px) {
 
-    
+     /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+     .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+        font-size: 4.8vmax;
+        margin-top: -4.25vmax;
+    }
+
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 3.3vmax;
+        margin-top: -2.90vmax;
+    }
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 4.8vmax;
+        margin-top: -2.90vmax;
+    }
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla varios movile |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:431px) {
+ 
+   /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+   .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+    font-size: 4vmax;
+    margin-top: -3.45vmax;
+    }
+
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 2.5vmax;
+        margin-top: -2.10vmax;
+    }
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 4vmax;
+        margin-top: -2.10vmax;
+    }
 }
 
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:391px) {
- 
+  /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+  .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+    font-size: 4.2vmax;
+    margin-top: -3.65vmax;
+    }
+
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 2.7vmax;
+        margin-top: -2.20vmax;
+    }
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 4.2vmax;
+        margin-top: -2.30vmax;
+    }
    
 }
 
@@ -362,7 +401,24 @@
 
 @media screen and (max-width:325px) {
    
-    
+     /* Clases con font-size: 3.5vmax y margin-top: -3.1vmax */
+  .routMap, .routMap1, .routMap2, .routMap5, .routMap6, .routMap7 {
+    font-size: 4.5vmax;
+    margin-top: -3.95vmax;
+    }
+
+    /* Clases con font-size: 2vmax y margin-top: -1.75vmax */
+    .routMap3, .routMap8 {
+        font-size: 3vmax;
+        margin-top: -2.50vmax;
+    }
+
+    /* Clases con font-size: 3.5vmax y margin-top: -1.75vmax */
+    .routMap4, .routMap9 {
+        font-size: 4.5vmax;
+        margin-top: -2.60vmax;
+    }
+   
  
     
 }
