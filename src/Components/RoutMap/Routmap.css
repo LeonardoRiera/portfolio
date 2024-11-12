@@ -211,7 +211,11 @@
 
 @media screen and (max-width:992px) {
 
-   
+    .routmapContainer {
+       
+        padding: 2vmax 3vmax 2vmax 5vmax;
+    }
+    
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
@@ -220,7 +224,10 @@
 
 @media screen and (max-width:885px)  {
 
-   
+    .routmapContainer {
+       
+        padding: 2vmax;
+    }
         
 }
 

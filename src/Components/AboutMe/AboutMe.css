@@ -250,6 +250,8 @@ left: -110%;
     .diseñador {
         margin-top: 3vmax;
     }
+   
+   
     
 }
 
@@ -259,8 +261,19 @@ left: -110%;
 
 
 @media screen and (max-width:992px) {
+    
+    .estrellas {
+       
+        margin-bottom: 0.5rem;
+    }
+    
+    .idiomasGral {
+        margin-bottom: 0.5rem;
+    }
 
-   
+    .diseñador {
+        margin-top: 1vmax;
+    }
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
@@ -285,15 +298,15 @@ left: -110%;
     }
 
     .diseñador {
-        margin-top: 2.7vmax;
+        margin-top: 2.3vmax;
     }
     
     .otros {
-        margin-top: 2.3vmax;
+        margin-top: 2vmax;
     }
 
     .idiomas {
-        margin-top: 2.3vmax;
+        margin-top: 2vmax;
     }
 
 
@@ -316,7 +329,14 @@ left: -110%;
     
     }
     
+    .estrellas {
+       
+        margin-bottom: 0.2rem;
+    }
     
+    .idiomasGral {
+        margin-bottom: 0.2rem;
+    }
     
         
 }
