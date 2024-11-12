@@ -42,7 +42,7 @@
     font-family: 'Chillax', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 8vmax;
+    font-size: 7vmax;
     z-index: 10;
     /* text-shadow: 5px 5px 2px rgb(0, 0, 0); */
     filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
@@ -529,7 +529,7 @@ left: -110%;
 
     .footerContenedor {
         margin-top: 5vmax;
-        height: 52vmax;
+        height: 50vmax;
         
     }
    
@@ -548,11 +548,7 @@ left: -110%;
 @media screen and (max-width:481px) {
 
     
-    .footerContenedor {
-        margin-top: 5vmax;
-        height: 52vmax;
-        
-    }
+   
     .contactame {
         font-size: 7vmax;
        

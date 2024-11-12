@@ -15,9 +15,9 @@ const AboutMe = () => {
   return (
     <div className='aboutMeContainer'>
 
-      <div className='row'>
+      <div className='row principalRow'>
 
-        <div className='col-xs-12 col-sm-6 stackContainer'>
+        <div className='col-sm-12 col-md-6 stackContainer'>
 
           <div className='stackImagen'>
 
@@ -126,7 +126,7 @@ const AboutMe = () => {
 
         </div>
 
-        <div className='col-xs-12 col-sm-6 aboutFotoContainer'>
+        <div className='col-sm-12 col-md-6 aboutFotoContainer'>
 
           <div className='aboutFoto'>
 
@@ -139,7 +139,7 @@ const AboutMe = () => {
             <h3 className='titulo'>About Me</h3>
             <p className='textoAboutMe'><span>S</span>oy <span>LEO</span> trabajo como desarrollador <span>FRONTEND</span> además me dedico al Diseño Gráfico. 
             <br />Me interesa <span>CREAR</span> experiencias Visuales atractivas como también páginas y aplicaciones funcionales y eficientes.</p>
-            
+            <p className='cvBoton3'>{t('aboutMe.boton')}</p>
           </div>
 
         </div>

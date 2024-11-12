@@ -109,5 +109,261 @@
     100% {
       color: rgba(0, 255, 26, 0.158); /* Vuelve a bajar la opacidad */
     }
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+    .routMap {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    
+    .routMap1 {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    .routMap2 {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    .routMap3 {
+        font-size: 1.6vmax;
+        margin-top: -1.75vmax;
+       
+    }
+    
+    .routMap4 {
+        font-size: 3.1vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    .routMap5 {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    .routMap6 {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    .routMap7 {
+        font-size: 3.1vmax;
+        margin-top: -2.7vmax;
+    }
+    
+    .routMap8 {
+        font-size: 1.6vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    .routMap9 {
+
+        font-size: 3.1vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+   
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .routMap {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    
+    .routMap1 {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    .routMap2 {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    .routMap3 {
+        font-size: 2vmax;
+        margin-top: -1.75vmax;
+       
+    }
+    
+    .routMap4 {
+        font-size: 3.5vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    .routMap5 {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    .routMap6 {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    .routMap7 {
+        font-size: 3.5vmax;
+        margin-top: -3.1vmax;
+    }
+    
+    .routMap8 {
+        font-size: 2vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    .routMap9 {
+
+        font-size: 3.5vmax;
+        margin-top: -1.75vmax;
+    }
+    
+    
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+    
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+  
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+} 
+   
+ 
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+   
+    
+ 
+    
+}
   

@@ -41,9 +41,9 @@
   },
 
   "faja": {
-    "web": "My Proyects",
-    "movile": "My Proyects",
-    "grafic": "My Proyects"
+    "web": "My Projects",
+    "movile": "My Projects",
+    "grafic": "My Projects"
   },
 
   "headerTexts": {
@@ -57,5 +57,10 @@
 
   "footer": {
     "contacto": "Contact!"
+  },
+
+  
+  "aboutMe": {
+    "boton": "View Projects"
   }
 }

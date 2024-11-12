@@ -21,6 +21,7 @@
 .stackContainer {
     display: flex;
     flex-flow: row nowrap;
+    
 
 }
 
@@ -133,3 +134,275 @@
     color: white;
     font-size: 1.2vmax;
 }
+
+
+
+
+/* ///////////////// lado derecho ////////////////////// */
+
+.aboutFotoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.cvBoton3 {
+    font-family: Satoshi-Black;
+    font-size: 1.2vmax;
+    color: #000000;
+    background-color: #00ff11;
+    padding: 1vmax 5vmax;
+    border: 1px solid #00ff11 ;
+    border-radius:5px;
+    cursor: pointer;
+    position: relative; /* Posición relativa para el efecto glow */
+    overflow: hidden; /* Oculta el contenido que se sale del botón */
+    transform: perspective(500px); /* Perspectiva para el efecto 3D */
+    transition: all 0.4s ease; /* Transición suave para efectos */
+}
+      
+      
+      
+      
+/* Efecto de brillo (glow) */
+.cvBoton3::before {
+content: "";
+position: absolute;
+top: -50%;
+left: -70%;
+width: 200%;
+height: 200%;
+background: rgba(255, 255, 255, 0.066); /* Brillo blanco sutil */
+opacity: 0;
+transition: all 0.5s ease;
+transform: rotate(60deg);
+}
+
+/* Efecto hover */
+.cvBoton3:hover {
+border: 1px solid #00ff11 ;
+background-color: transparent;
+color: #00ff11; 
+}
+
+.cvBoton3:hover::before {
+opacity: 1;
+top: -120%;
+left: -110%;
+}
+
+.textoAboutMe {
+    padding: 2vmax 5vmax; /* importanta para responsive */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+    .frontend {
+        margin-top: 0.4vmax;
+    }
+
+    .diseñador {
+        margin-top: 3vmax;
+    }
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+   
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+    .aboutMeContainer {
+        padding: 0 2vmax;
+           
+    }
+
+    .diseñador {
+        margin-top: 2.7vmax;
+    }
+    
+
+   /* imagenes en general */
+    .imageAbout {
+        width: 2.5vmax;
+    }
+
+    .frontLogos i {
+        font-size: 2.5vmax;
+     
+    }
+
+    .diseñoLogos i {
+        font-size: 2.5vmax;
+    }
+
+    .otrosLogos i {
+        font-size: 2.5vmax;
+    
+    }
+    
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .principalRow {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 8vmax;
+        
+    }
+  
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:767px) {
+
+   
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+  
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+} 
+   
+ 
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+   
+    
+ 
+    
+}
+  

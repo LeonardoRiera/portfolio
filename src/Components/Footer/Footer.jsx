@@ -40,8 +40,6 @@ const Footer = () => {
 
       <div className='row contactosFooter'>
 
-        
-
         <div className='col-6 linksContainer'>
 
           <a href="https://www.linkedin.com/in/leonardo-gabriel-riera-92567a283" className='links' target="blank" ><i class="bi bi-linkedin linksLogo"></i></a>
