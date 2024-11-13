@@ -2,8 +2,8 @@
     "navbar": {
       "about": "About Me",
       "projects": "Projects",
-      "resume": "Resume"
-      
+      "contacto": "Contact",
+       "idioma": "Language"
     },
 
     "proyectos": {

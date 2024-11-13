@@ -15,33 +15,41 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-md">
       <div className="container-fluid">
         <a className="navbar-brand  " href="#"><img src={triangulo} alt="logo" className='principalNavbar'/></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse " id="navbarNav">
 
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto lista">
             <li className="nav-item">
               <a className="nav-link linksnavbar" aria-current="page" href="#">{t('navbar.about')}</a>
             </li>
             <li className="nav-item">
               <a className="nav-link linksnavbar" href="#">{t('navbar.projects')}</a>
             </li>
-           
+            <li className="nav-item">
+              <a className="nav-link linksnavbar " href="#">{t('navbar.contacto')}</a>
+            </li>
+            
           </ul>
           
+          
           {/* toogle */}
-          <div className="toggle-container" onClick={toggleLanguage}>
+          <div className="toggle-container " onClick={toggleLanguage}>
             
-            <span className="toggle-label">Es</span>
-            <div className={`toggle ${language === 'en' ? 'active' : ''}`}>
-              <span className="toggle-ball"></span>
+            <span className="toggle-label esMargin">Es</span>
+            <div className='efectoLetra'>
+              <div className={`toggle ${language === 'en' ? 'active' : ''}`}>
+                <span className="toggle-ball"></span>
+              </div>
+              <p className='tituloLenguaje'>{t('navbar.idioma')}</p>
             </div>
             <span className="toggle-label">En</span>
+            
           </div>
 
         </div>

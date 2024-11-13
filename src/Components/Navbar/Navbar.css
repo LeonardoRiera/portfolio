@@ -6,31 +6,51 @@
 
 }
 
-
+/* logo */
 .principalNavbar {
     width: 4vmax;
     
 }
 
-.linkBoton {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.lista {
+    margin-right: 0.5vmax;
+    border-right: 1px solid  #00ff1144;;
+    
 }
 
 .linksnavbar {
     font-family: Satoshi-Medium;;
     color: #00ff11;
-    font-size: 1.5vmax;
+    font-size: 1.2vmax;
 }
 .linksnavbar:hover {
     
-    color: rgb(255, 255, 255) !important;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.593) 20%, #00FF11); /* Degradado de blanco semi-transparente a verde */
+    -webkit-background-clip: text; /* Recorte del fondo al área del texto */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
     
 }
 
 
+.efectoLetra {
+    margin-top: 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloLenguaje {
+    font-family: Satoshi-Medium;;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.593) 20%, #00FF11); /* Degradado de blanco semi-transparente a verde */
+    -webkit-background-clip: text; /* Recorte del fondo al área del texto */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 0.8vmax;
+   
+    
+}
 
 
 .toggle-container {
@@ -43,34 +63,37 @@
 }
   
 .toggle {
-    width: 60px; /* Ancho del toggle */
-    height: 30px; /* Alto del toggle */
-    background-color: #00ff11c8; /* Color de fondo del toggle */
+    width: 55px; /* Ancho del toggle */
+    height: 25px; /* Alto del toggle */
+    background-color: black; /* Color de fondo del toggle */
     border-radius: 30px; /* Bordes redondeados */
     display: flex;
     align-items: center;
     position: relative; /* Posicionamiento para la bolita */
     transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+    border: 1.8px solid #00ff1160; ;
+    
 }
   
 .toggle-ball {
-    width: 26px; /* Ancho de la bolita */
-    height: 26px; /* Alto de la bolita */
-    background-color:  rgb(255, 255, 255); /* Color de la bolita */
+    width: 20.3px; /* Ancho de la bolita */
+    height: 20.3px; /* Alto de la bolita */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.593) 50%, #00FF11); /* Color de la bolita */
     border-radius: 50%; /* Hacemos la bolita redonda */
     position: absolute; /* Posición absoluta para mover la bolita */
-    top: 2px; /* Ajuste vertical */
-    left: 2px; /* Ajuste horizontal */
+    top: 0.8px; /* Ajuste vertical */
+    left: 1.8px; /* Ajuste horizontal */
     transition: transform 0.3s ease; /* Transición suave para el movimiento */
+    
 }
   
 /* Estilo cuando el toggle está activo */
 .toggle.active {
-    background-color: #00ff11d8; /* Color de fondo cuando está activado */
+    background-color: #000000d8; /* Color de fondo cuando está activado */
 }
   
 .toggle.active .toggle-ball {
-    transform: translateX(30px); /* Mueve la bolita a la derecha */
+    transform: translateX(28.2px); /* Mueve la bolita a la derecha */
 }
   
 .toggle-label {
@@ -79,4 +102,221 @@
     color: #00ff11; /* Color del texto */
     font-family: Satoshi-Black;
 }
+ 
+.esMargin {
+
+    margin-right: 8px; 
+}
+
+.lenguajeIcon {
+    display: flex;
+    align-items: center;
+}
+
+.lenguajeIcon i {
+    color: #00FF11;
+}
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+ 
+  
+ 
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .linksnavbar {
+        font-size: 1.8vmax;
+    }
+
+    .tituloLenguaje {
+        font-size: 1vmax;
+      
+    }
+
+    .toggle-label {
+        font-size: 1.8vmax; 
+    }
+
+    .efectoLetra {
+        margin-top: 3.5vmax;
+    }
+      
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+   
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+
+    /* logo */
+    .principalNavbar {
+        width: 7vmax;    
+    }
+    
+
+    .linksnavbar {
+        font-size: 2.8vmax;
+    }
+
+    .tituloLenguaje {
+        font-size: 1.5vmax;
+      
+    }
+
+    .toggle-label {
+        font-size: 3vmax; 
+    }
+
+    .efectoLetra {
+        margin-top: 3.5vmax;
+    }
+      
+    .efectoLetra {
+        margin-top: 4.5vmax;
+    }
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+
+
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+   
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    
+   
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+    
+    
+ 
+    
+}  
   
