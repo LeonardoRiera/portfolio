@@ -252,6 +252,27 @@
     .efectoLetra {
         margin-top: 4.5vmax;
     }
+
+    /* toggle */
+
+    .toggle {
+        width: 60px; /* Ancho del toggle */
+        height: 30px; /* Alto del toggle */
+        
+    }
+      
+    .toggle-ball {
+        width: 25.3px; /* Ancho de la bolita */
+        height: 25.3px; /* Alto de la bolita */
+        top: 0.8px; /* Ajuste vertical */
+        left: 1.8px; /* Ajuste horizontal */
+       
+        
+    }
+    
+    .toggle.active .toggle-ball {
+        transform: translateX(28.2px); /* Mueve la bolita a la derecha */
+    }
    
 }
 
@@ -272,6 +293,26 @@
 @media screen and (max-width:576px) {
 
     
+    /* toggle */
+
+    .toggle {
+        width: 60px; /* Ancho del toggle */
+        height: 30px; /* Alto del toggle */
+        
+    }
+    
+    .toggle-ball {
+        width: 25.3px; /* Ancho de la bolita */
+        height: 25.3px; /* Alto de la bolita */
+        top: 0.8px; /* Ajuste vertical */
+        left: 1.8px; /* Ajuste horizontal */
+    
+        
+    }
+
+    .toggle.active .toggle-ball {
+        transform: translateX(28.2px); /* Mueve la bolita a la derecha */
+    }
 
 
 
@@ -281,7 +322,9 @@
 
 @media screen and (max-width:543px) {
 
-   
+    .toggle-label {
+        font-size: 2.7vmax; 
+    }
     
 }
 
@@ -299,8 +342,26 @@
 
 @media screen and (max-width:469px) {
 
+      /* toggle */
+
+      .toggle {
+        width: 65px; /* Ancho del toggle */
+        height: 35px; /* Alto del toggle */
+        
+    }
+      
+    .toggle-ball {
+        width: 30.3px; /* Ancho de la bolita */
+        height: 30.3px; /* Alto de la bolita */
+        top: 0.8px; /* Ajuste vertical */
+        left: 1.8px; /* Ajuste horizontal */
+       
+        
+    }
     
-    
+    .toggle-label {
+        font-size: 2.7vmax; 
+    }
 }
 
 
