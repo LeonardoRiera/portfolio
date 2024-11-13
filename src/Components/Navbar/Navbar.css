@@ -273,6 +273,11 @@
     .toggle.active .toggle-ball {
         transform: translateX(28.2px); /* Mueve la bolita a la derecha */
     }
+
+    .lista {
+        border-right: none;
+        margin-top: 3vmax;
+    }
    
 }
 
