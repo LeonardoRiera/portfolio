@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import './Footer.css'
 import circulo from '../../image/circulo.png'
 import triangulo from "../../image/triangulo.png";
@@ -10,11 +10,16 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
   const { language, setLanguage } = useContext(LanguageContext);
 
+  useEffect(() => {
+    // Inicializa todos los tooltips en el componente usando JavaScript de Bootstrap
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+  }, [language]);
 
 
 
   return (
-    <div className='footerContenedor'>
+    <div className='footerContenedor' id='footer'>
      
       <div className='row footerPrincipal'>
 
@@ -65,7 +70,14 @@ const Footer = () => {
           
 
           <div>
-            <a href="#"><img src={triangulo} alt="logoFooter" className='logoFooter2'/></a> 
+            <a href="#"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title={t(`footer.toolTip`)}
+              rel="noopener noreferrer"
+            >
+              <img src={triangulo} alt="logoFooter" className='logoFooter2'/>
+            </a> 
           </div>
 
           

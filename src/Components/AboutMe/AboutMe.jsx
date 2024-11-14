@@ -13,7 +13,7 @@ const AboutMe = () => {
 
 
   return (
-    <div className='aboutMeContainer'>
+    <div className='aboutMeContainer' id='aboutMe'>
 
       <div className='row principalRow'>
 
@@ -138,7 +138,7 @@ const AboutMe = () => {
 
             <h3 className='titulo'>{t('aboutMe.titulo')}</h3>
             <p className='textoAboutMe'>{t('aboutMe.desarrollo')}</p>
-            <p className='cvBoton3'>{t('aboutMe.boton')}</p>
+            <a className='botone' href="#proyectos"><p className='cvBoton3'>{t('aboutMe.boton')}</p></a>
           </div>
 
         </div>

@@ -56,7 +56,8 @@
   },
 
   "footer": {
-    "contacto": "Contact!"
+    "contacto": "Contact!",
+    "toolTip": "Go Up"
   },
 
   "aboutMe": {

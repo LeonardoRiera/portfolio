@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
 import { useTranslation } from 'react-i18next';
 import './Proyects.css'; 
@@ -15,15 +15,6 @@ const Proyects = () => {
   const { t, i18n } = useTranslation();
   const { language, setLanguage } = useContext(LanguageContext);  
 
-
-  // Estado para controlar si el offcanvas está abierto o cerrado
- /*  const [isOpen, setIsOpen] = useState(false); */
-
-  // Función para abrir/cerrar el offcanvas
-  /* const toggleOffcanvas = () => {
-    setIsOpen(!isOpen);
-  }; */
-
   useEffect(() => {
     // Inicializa todos los tooltips en el componente usando JavaScript de Bootstrap
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
@@ -33,7 +24,7 @@ const Proyects = () => {
 
 
   return (
-    <div className='ProyectsContainer'>
+    <div className='ProyectsContainer' id='proyectos'>
 
       
       {/* tracker */}

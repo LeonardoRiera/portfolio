@@ -26,13 +26,13 @@ const Navbar = () => {
 
           <ul className="navbar-nav ms-auto lista">
             <li className="nav-item">
-              <a className="nav-link linksnavbar" aria-current="page" href="#">{t('navbar.about')}</a>
+              <a className="nav-link linksnavbar" aria-current="page" href="#aboutMe">{t('navbar.about')}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link linksnavbar" href="#">{t('navbar.projects')}</a>
+              <a className="nav-link linksnavbar" href="#proyectos">{t('navbar.projects')}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link linksnavbar " href="#">{t('navbar.contacto')}</a>
+              <a className="nav-link linksnavbar " href="#footer">{t('navbar.contacto')}</a>
             </li>
             
           </ul>

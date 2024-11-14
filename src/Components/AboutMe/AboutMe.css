@@ -201,10 +201,14 @@ top: -120%;
 left: -110%;
 }
 
+.botone {
+    text-decoration: none;
+}
+
+
 .textoAboutMe {
     padding: 2vmax 5vmax; /* importanta para responsive */
 }
-
 
 
 
