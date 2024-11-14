@@ -59,8 +59,16 @@
     "contacto": "Contact!"
   },
 
-  
   "aboutMe": {
-    "boton": "View Projects"
+    "boton": "View Projects",
+    "frontend": "Frontend Stack",
+    "diseño": "Design Stack",
+    "otras": "Addicional Stack",
+    "idioma": "Languages",
+    "idioma2": "Spanish",
+    "idioma3": "English",
+    "idioma4": "Italian",
+    "titulo": "About Me",
+    "desarrollo": "I am LEO, and I work as a FRONTEND developer. I also specialize in Graphic Design. I'm interested in CREATING visually appealing experiences, as well as functional and efficient websites and applications."
   }
 }

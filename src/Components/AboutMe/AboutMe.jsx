@@ -29,7 +29,7 @@ const AboutMe = () => {
 
             <div className='frontend'>
 
-              <p className='frontTitle'>Frontend Stack</p>
+              <p className='frontTitle'>{t('aboutMe.frontend')}</p>
 
               <div className='frontLogos'>
 
@@ -48,7 +48,7 @@ const AboutMe = () => {
 
             <div className='diseñador'>
 
-              <p className='frontTitle'>Design Stack</p>
+              <p className='frontTitle'>{t('aboutMe.diseño')}</p>
 
               <div className='diseñoLogos'>
 
@@ -63,7 +63,7 @@ const AboutMe = () => {
 
             <div className='otros diseñador'>
 
-              <p className='frontTitle'>Addicional Stack</p>
+              <p className='frontTitle'>{t('aboutMe.otras')}</p>
 
               <div className='otrosLogos'>
                 <i class="devicon-git-plain colored"></i>               
@@ -75,11 +75,11 @@ const AboutMe = () => {
 
             <div className='idiomas diseñador'>
 
-              <p className='frontTitle'>Languages</p>
+              <p className='frontTitle'>{t('aboutMe.idioma')}</p>
               
               <div className='idiomasCont'>
 
-                <p className='idiomasGral'>Español </p>
+                <p className='idiomasGral'>{t('aboutMe.idioma2')} </p>
 
                 <div className='estrellas'>
 
@@ -95,7 +95,7 @@ const AboutMe = () => {
 
               <div className='idiomasCont'>
 
-                <p className='idiomasGral'>Ingles </p>
+                <p className='idiomasGral'>{t('aboutMe.idioma3')} </p>
 
                 <div className='estrellas'>
 
@@ -109,7 +109,7 @@ const AboutMe = () => {
 
               <div className='idiomasCont'>
 
-                <p className='idiomasGral'>Italiano</p>
+                <p className='idiomasGral'>{t('aboutMe.idioma4')}</p>
 
                 <div className='estrellas'>
 
@@ -136,9 +136,8 @@ const AboutMe = () => {
 
           <div className='aboutTexto'>
 
-            <h3 className='titulo'>About Me</h3>
-            <p className='textoAboutMe'><span>S</span>oy <span>LEO</span> trabajo como desarrollador <span>FRONTEND</span> además me dedico al Diseño Gráfico. 
-            <br />Me interesa <span>CREAR</span> experiencias Visuales atractivas como también páginas y aplicaciones funcionales y eficientes.</p>
+            <h3 className='titulo'>{t('aboutMe.titulo')}</h3>
+            <p className='textoAboutMe'>{t('aboutMe.desarrollo')}</p>
             <p className='cvBoton3'>{t('aboutMe.boton')}</p>
           </div>
 

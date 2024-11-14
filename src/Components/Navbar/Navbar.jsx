@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <a className="navbar-brand  " href="#"><img src={triangulo} alt="logo" className='principalNavbar'/></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <span className="burger" ><i class="bi bi-list"></i></span>
         </button>
 
         <div className="collapse navbar-collapse " id="navbarNav">

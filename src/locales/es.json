@@ -62,7 +62,16 @@
   },
 
   "aboutMe": {
-    "boton": "Ver Proyectos"
+    "boton": "Ver Proyectos",
+    "frontend": "Tecnologías Frontend",
+    "diseño": "Tecnologías Diseño",
+    "otras": "Otras Tecnologías",
+    "idioma": "Idiomas",
+    "idioma2": "Español",
+    "idioma3": "Ingles",
+    "idioma4": "Italiano",
+    "titulo": "Acerca de Mi",
+    "desarrollo": "Soy LEO trabajo como desarrollador FRONTEND además me dedico al Diseño Gráfico. Me interesa CREAR experiencias Visuales atractivas como también páginas y aplicaciones funcionales y eficientes."
   }
 
 
