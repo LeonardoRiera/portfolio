@@ -624,14 +624,16 @@
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
         opacity: 1; /* Muestra el brillo al hacer hover */
-        top:-11%;
+        top:-15%;
         left: 40%; 
         transform: rotate(65deg);
+        width: 200%;
+        
         
     }
     .ProyectContainer:hover::before {
         opacity: 1; /* Muestra el brillo al hacer hover */
-        top: -11%;
+        top: -15%;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
@@ -645,25 +647,26 @@
         width: 90%;
         padding: 5vmax 2vmax;
         margin-bottom: 5vmax;
-        height: 102vmax;
+        height: 105vmax;
       
              
     }
 
     .ProyectContainer2::before {
         content: "";
-        top: 30%;
-        right: 40%;
+        top: 40%;
+        right: -10%;
         opacity: 1;
         transform: rotate(22deg);
-        height: 220%;
+        height: 105%;
+        width: 200%;
         
     }
       
     .ProyectContainer2:hover::before {
         opacity: 1; /* Muestra el brillo al hacer hover anular! */
-        top: 30%;
-        right: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+        top: 40%;
+        right: -10%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
 
@@ -924,13 +927,16 @@
 
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
-        top:-13%;
+        top:-24%;
         left: 40%; 
         transform: rotate(65deg);
-        
+
+        height: 220%;
+
+       
     }
     .ProyectContainer:hover::before {
-        top: -13%;
+        top: -24%;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
@@ -1015,13 +1021,13 @@
 
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
-        top:-13%;
+        top:-25%;
         left: 40%; 
         transform: rotate(66deg);
         
     }
     .ProyectContainer:hover::before {
-        top: -13%;
+        top: -25%;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
@@ -1129,13 +1135,13 @@
 
      /* Efecto de brillo deshacer */
      .ProyectContainer::before {
-        top:-24%;
+        top:-40%;
         left: 40%; 
         transform: rotate(66deg);
         
     }
     .ProyectContainer:hover::before {
-        top: -24%;
+        top: -40%;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
@@ -1165,14 +1171,12 @@
    
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
-        top:-29%;
         left: 40%; 
         transform: rotate(66deg);
         
     }
     .ProyectContainer:hover::before {
-        top: -29%;
-        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+        left: 40%; 
     }
 
 }
@@ -1199,13 +1203,13 @@
 
      /* Efecto de brillo deshacer */
      .ProyectContainer::before {
-        top:-33%;
+        top: -55vmax;
         left: 40%; 
         transform: rotate(66deg);
         
     }
     .ProyectContainer:hover::before {
-        top: -33%;
+        top: -55vmax;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
@@ -1244,13 +1248,25 @@
 
     /* Efecto de brillo deshacer */
     .ProyectContainer::before {
-        top:-38%;
+        top:-45%;
         left: 40%; 
         transform: rotate(66deg);
         
     }
     .ProyectContainer:hover::before {
-        top: -38%;
+        top: -45%;
+        left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
+    }
+
+    /* Efecto de brillo deshacer */
+    .ProyectContainer2::before {
+        top:-30%;
+        left: 40%; 
+        transform: rotate(-66deg);
+        
+    }
+    .ProyectContainer2:hover::before {
+        top: -30%;
         left: 40%; /* Mueve el brillo hacia la parte inferior derecha */
     }
 
