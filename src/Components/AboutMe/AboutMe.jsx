@@ -4,6 +4,7 @@ import { LanguageContext } from '../../Contexts/LanguageContext.jsx';
 import { useTranslation } from 'react-i18next';
 import bubble from '../../image/bubble.svg'
 import RoutMap from '../RoutMap/RoutMap.jsx';
+import leo from '../../image/leo.png';
 
 
 const AboutMe = () => {
@@ -130,7 +131,7 @@ const AboutMe = () => {
 
           <div className='aboutFoto'>
 
-            <img src="" alt="mi foto" />
+            <img src={leo} alt="mi foto" className='leo'/>
 
           </div>
 

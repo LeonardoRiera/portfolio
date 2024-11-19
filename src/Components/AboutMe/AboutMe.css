@@ -1,7 +1,8 @@
 /* contenedor principal */
 .aboutMeContainer {
-    padding-left: 4vmax;
-    padding-right: 2vmax;
+    padding-left: 8vmax;
+    padding-right: 8vmax;
+    margin-top: -2vmax;
     overflow: hidden;
 }
 
@@ -130,20 +131,20 @@
 }
 
 .textoAboutMe {
-    font-family: Satoshi-Black;
+    font-family: Satoshi-Medium;
     color: white;
     font-size: 1.2vmax;
+    
 }
 
 
-
-
-/* ///////////////// lado derecho ////////////////////// */
 
 .aboutFotoContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: -3vmax;
 }
 
 .aboutTexto {
@@ -151,8 +152,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-top: -9vmax;
 }
 
+.aboutFoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4vmax;
+}
 
 
 
@@ -161,7 +171,7 @@
     font-size: 1.2vmax;
     color: #000000;
     background-color: #00ff11;
-    padding: 1vmax 5vmax;
+    padding: 1vmax 4.5vmax;
     border: 1px solid #00ff11 ;
     border-radius:5px;
     cursor: pointer;
@@ -169,6 +179,7 @@
     overflow: hidden; /* Oculta el contenido que se sale del botón */
     transform: perspective(500px); /* Perspectiva para el efecto 3D */
     transition: all 0.4s ease; /* Transición suave para efectos */
+    margin-top: 2vmax;
 }
       
       
@@ -206,8 +217,9 @@ left: -110%;
 }
 
 
-.textoAboutMe {
-    padding: 2vmax 5vmax; /* importanta para responsive */
+
+.leo {
+    width: 65%;
 }
 
 
@@ -286,7 +298,20 @@ left: -110%;
 
 @media screen and (max-width:885px)  {
 
-   
+    .leo {
+        width: 70%;
+    }
+    
+
+    .aboutTexto {
+        margin-top: -7vmax;
+    }
+
+    .textoAboutMe {
+        font-size: 1.6vmax;
+        
+    }
+    
         
 }
 
@@ -370,7 +395,7 @@ left: -110%;
     .principalRow {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 8vmax;
+        margin-top: 20vmax;
         
     }
 
@@ -382,7 +407,7 @@ left: -110%;
 
     /* bloque especifico de rowMap y datos */
     .stackContainer {
-        padding: 12vmax 3vmax 12vmax 3vmax;
+        padding: 1vmax 3vmax 12vmax 3vmax;
         width: 100%;
     }
 
@@ -455,9 +480,35 @@ left: -110%;
 
     .estrellas {
         gap: 1vmax ;
-    }    
+    }  
     
-  
+    /* section foto */
+
+    .aboutFotoContainer {
+        align-self: center;
+        width: 70%;
+    }
+
+    .leo {
+        width: 65%;
+    }
+
+    .textoAboutMe {
+        font-size: 2.5vmax;
+        
+    }
+
+    .titulo {
+        font-size: 5vmax; 
+    }
+
+    .cvBoton3 {
+        font-size: 2vmax;        
+        padding: 1vmax 4.5vmax;        
+        margin-top: 2vmax;
+    }
+    
+
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
@@ -549,7 +600,33 @@ left: -110%;
 
     .estrellas {
         gap: 1vmax ;
-    }    
+    } 
+    
+    
+    /* section foto */
+    .aboutFotoContainer {
+        align-self: center;
+        width: 70%;
+    }
+
+    .leo {
+        width: 65%;
+    }
+
+    .textoAboutMe {
+        font-size: 2.5vmax;
+        
+    }
+
+    .titulo {
+        font-size: 4.5vmax; 
+    }
+
+    .cvBoton3 {
+        font-size: 2vmax;        
+        padding: 1vmax 4.5vmax;        
+        margin-top: 2vmax;
+    }
     
   
   
@@ -565,7 +642,9 @@ left: -110%;
 
 @media screen and (max-width:576px) {
 
-  
+    .principalRow {
+        margin-top: 12vmax;
+    }
 
 }
 
@@ -661,7 +740,37 @@ left: -110%;
 
     .estrellas {
         gap: 1vmax ;
-    }    
+    } 
+    
+    
+    /* section foto */
+    .aboutFotoContainer {
+        width: 80%;
+    }
+
+   
+
+    .text .leo {
+        width: 70%;
+    }oAboutMe {
+        font-size: 2vmax;
+        
+    }
+
+    .titulo {
+        font-size: 4.5vmax; 
+    }
+
+    .cvBoton3 {
+        font-size: 2vmax;        
+        padding: 1vmax 4.5vmax;        
+        margin-top: 2vmax;
+    }
+
+    .principalRow {
+        margin-top: 4vmax;
+    }
+
     
   
 } 
@@ -749,6 +858,14 @@ left: -110%;
     .estrellas {
         gap: 1vmax ;
     }  
+
+
+    /* section foto */
+
+    .principalRow {
+        margin-top: 15vmax;
+    }
+
     
 }
 
@@ -834,6 +951,16 @@ left: -110%;
     }    
     
   
+    /* section foto */
+
+    .principalRow {
+        margin-top: 10vmax;
+    }
+
+    .leo {
+        width: 80%;
+    }
+   
    
 }
 
@@ -857,6 +984,13 @@ left: -110%;
     .idiomas {
         margin-top: 2.8vmax;
     }
+
+    /* section foto */
+
+    .principalRow {
+        margin-top: 3vmax;
+    }
+
    
 }
 
