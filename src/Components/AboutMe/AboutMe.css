@@ -866,6 +866,10 @@ left: -110%;
         margin-top: 15vmax;
     }
 
+    .leo {
+        width: 80%;
+    }
+
     
 }
 
@@ -957,9 +961,7 @@ left: -110%;
         margin-top: 10vmax;
     }
 
-    .leo {
-        width: 80%;
-    }
+    
    
    
 }
