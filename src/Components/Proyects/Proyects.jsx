@@ -115,7 +115,7 @@ const Proyects = () => {
         {/* Div que contiene la información del proyecto */}
         <div className="project-info2">
           <div className='textContainer'>
-            <h3 className='proyectNameImperio'>Imperio Ticket</h3>
+            <h3 className='proyectNameImperio'>Imperio Tickets</h3>
             <p className='proyectDevs1'>{t('imperioTickets.descripcion')}:</p>
             <p className='proyectDevs'>{t('imperioTickets.descripcionDev')} </p>
             <p className='proyectDevs'>{t('imperioTickets.flujo')}</p>
