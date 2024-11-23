@@ -162,7 +162,7 @@ const Proyects = () => {
 
           <div className='redirectionContainer'>
             <a
-              href="https://imperiotickets-mhjotcaf1-leonardorieras-projects.vercel.app/"
+              href="https://imperiotickets.vercel.app/"
               target="_blank"
               className="gatoAncor"
               data-bs-toggle="tooltip"
@@ -244,7 +244,7 @@ const Proyects = () => {
 
           <div className='redirectionContainer'>
             <a
-              href="https://crea-tu-landing-riera-dx2qvpehr-leonardorieras-projects.vercel.app/"
+              href="https://crea-tu-landing-riera.vercel.app/"
               target="_blank"
               className="gatoAncor"
               data-bs-toggle="tooltip"
