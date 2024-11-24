@@ -18,7 +18,8 @@ Este proyecto está creado con React y Vite. Proyecto que conecta con mis trabaj
 2. Asegurate de tener vite instalado
 
 3. npm install react-¡18next ¡18next (para traduccion español ingles)
-4. npm install react-fast-marquee (para efecto marquee infinito) 
+4. npm install react-fast-marquee (para efecto marquee infinito)
+5. npm install firebase (para acceder a firebase además será necesario que te agregue como autorizado!!!) 
 
 
 
