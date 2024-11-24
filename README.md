@@ -1,3 +1,34 @@
+
+# Mi Proyecto Portfolio
+
+Este proyecto está creado con React y Vite. Proyecto que conecta con mis trabajos de presentación y además con link de descarga de mi CV
+
+## Tecnologías utilizadas
+- React
+- Vite
+- Bootstrap
+- FireBase (como "backend as a service")
+
+## Instalación
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/LeonardoRiera/portfolio.git
+
+
+2. Asegurate de tener vite instalado
+
+3. npm install react-¡18next ¡18next (para traduccion español ingles)
+   npm install react-fast-marquee (para banner infinito) 
+
+
+
+## Autor
+Creado por **[Leonardo Riera](www.linkedin.com/in/leonardo-gabriel-riera-92567a283)**.
+
+---
+¡Gracias por visitar este proyecto! 😊   
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
