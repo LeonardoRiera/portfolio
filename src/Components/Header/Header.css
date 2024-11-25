@@ -1,4 +1,4 @@
-/* Header.css */
+/* Header.css  prueba de forma alternativa de utilizar familia de fuentes*/
 @import url('../../styles/satoshi.css');/* satoshi.css */
 
 .HeaderContainer {
@@ -12,8 +12,6 @@
 
 /* seccion titulos header */
 
-
-
 .fade-in {
   animation: fadeIn 0.6s ease-in-out;
 }
@@ -25,9 +23,7 @@
   justify-content: center;
   padding: 2vmax 2vmax 2vmax 12vmax;
   margin-top: -10vmax;
-  
- 
-  
+
 }
 
 .fade-in {
@@ -43,29 +39,22 @@
   }
 }
 
-
-
 .portfolioTitulito {
   font-family: Satoshi-Black;
   font-size: 1.8vmax;
   color: #00ff11;
   margin: 0;
   
-  
 }
 
-
 .hache {
-  font-size: 7vmax;
-  
+  font-size: 7vmax; 
+
 }
 
 .nombre {
   font-size: 6.5vmax;
   display: inline-block; 
-  
-  
-  
   
 }
 
@@ -73,7 +62,6 @@
   font-size: 5.2vmax;
   
 }
-
 
 .textoPrincipal {
   font-family: Satoshi-Black;
@@ -89,6 +77,7 @@
   font-size: 1.2vmax;
   margin-top: 1vmax;
 }
+
 .profesionPropia { 
   color: #00ff11;
   letter-spacing: 1.2px
@@ -109,10 +98,8 @@
   overflow: hidden; /* Oculta el contenido que se sale del botón */
   transform: perspective(500px); /* Perspectiva para el efecto 3D */
   transition: all 0.4s ease; /* Transición suave para efectos */
+  text-decoration: none;
 }
-
-
-
 
 /* Efecto de brillo (glow) */
 .cvBoton::before {
@@ -126,9 +113,11 @@
   opacity: 0;
   transition: all 0.5s ease;
   transform: rotate(60deg);
+
+
 }
   
- /* Efecto hover */
+/* Efecto hover */
 .cvBoton:hover {
   border: 1px solid #00ff11 ;
   background-color: transparent;
@@ -139,9 +128,8 @@
   opacity: 1;
   top: -120%;
   left: -110%;
+
 }
-
-
 
 /* seccion objeto 3d */
 
@@ -151,7 +139,6 @@
   position: relative;
   top: -10%;
   right: 0%;
-  /* transform: translate(-50% -50%); */
   perspective: 1000px;
   display: flex;
   align-items: center;
@@ -195,9 +182,6 @@
   }
 }
 
-
-
-
 .card {
   height: 250px;
   width: 250px;
@@ -218,40 +202,40 @@
     
 }
 
-
-
 #front {
   transform: translateZ(125px);
   transform: translateZ(180px) rotateY(360deg);
+  
 }
 
 #back {
   transform: translateZ(-125px);
   transform: translateZ(-180px) rotateY(360deg);
+
 }
 
 #left {
- /*  right: 125px; */
   transform: rotateY(-90deg);
   right: 180px;
+
 }
 
 #right {
-  /* left: 125px; */
   transform: rotateY(90deg);
   left: 180px;
+
 }
 
 #top {
-  /* bottom: 125px; */
   transform: rotateX(90deg);
   bottom: 180px;
+
 }
 
 #bottom{
-  /* top: 125px; */
   transform: rotateX(-90deg);
   top: 180px;
+
   
 }
 
@@ -264,56 +248,38 @@
     
 }
 
-
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 
-
-
 @media screen and (max-width:1400px) {
-
-   
   
-    
 }
 
-
-
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
-
 
 @media screen and (max-width:1200px) {
 
   .HeaderContainer {
     margin-top: 4vmax;
   }
+
   .textoHeaderContainer {
-    
     margin-top: -5vmax;
       
   }
+
   .container {
     height: 40vh;
     width: 30vw;
-   
-    
-    
     
   }
-  
- 
-    
+     
 }
-
-
 
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
 
-
 @media screen and (max-width:992px) {
  
-
   .container {
-    
     top: -10px;
     right: 20px;
    
@@ -323,8 +289,6 @@
     height: 250px;
     width: 250px;
     position: absolute;
-    /* top: 120px;
-    left: 50px; */
     transform-style: preserve-3d;
     animation: animate 5s infinite;
    
@@ -337,7 +301,6 @@
      
   }
 
- 
   #bottom{ 
     transform: rotateX(-90deg);
     top: 120px;
@@ -362,6 +325,7 @@
     padding: 1.2vmax 8vmax;
     margin-top: 3vmax;
     margin-left: 10%;
+
   }  
 
   .cvBoton::before {
@@ -376,13 +340,12 @@
     opacity: 1;
     top: -120%;
     left: -155%;
+
   }
 
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
-
-
 
 @media screen and (max-width:885px)  {
 
@@ -392,19 +355,11 @@
     top: -10%;
     right: 5%;
    
-    
   }
-  
- 
-
-
-    
         
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
-
-
 
 @media screen and (max-width:835px)  {
 
@@ -416,7 +371,6 @@
     
   }
 
-
   .box {
     height: 250px;
     width: 250px;
@@ -426,26 +380,21 @@
   .textoHeaderContainer {
     padding: 2vmax 1vmax 2vmax 5vmax;
     margin-top: -8vmax;
-    
-   
-    
+     
   }
-    
-        
+            
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
 
-
-
 @media screen and (max-width:800px) {
+
   .container {
     height: 40vh;
     width: 30vw;
     position: relative;
     top: 0;
     right: 5%;
-    /* transform: translate(-50% -50%); */
     perspective: 1000px;
     display: flex;
     align-items: center;
@@ -457,6 +406,7 @@
     padding: 1vmax 7vmax;
     margin-top: 3vmax;
     margin-left: 10%;
+
   }
 
 }
@@ -464,14 +414,11 @@
 
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 
-
-
 @media screen and (max-width:768px) {
 
   .box {
     height: 245px;
     width: 245px;
-    
     top: 220px;
     left: 45px;
     
@@ -484,7 +431,6 @@
      
   }
 
- 
   #bottom{ 
     transform: rotateX(-90deg);
     top: 120px;
@@ -504,41 +450,42 @@
     margin-top: -4vmax;
       
   }
+
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:767px) {
+
   .HeaderContainer {
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 100vmax; /* Tamaño completo de la pantalla */
-    
-    
+     
   }
 
   /* animacion */
+
   .container {
     height: 40vh;
     width: 30vw;
     position: relative;
     top: -10%;
     right: 5%;
-    /* transform: translate(-50% -50%); */
     perspective: 1000px;
     display: flex;
     align-items: center;
     
   }
+
   .box {
     height: 250px;
     width: 250px;
     top: 200px;
     left: 4%;
-   
-    
+     
   } 
     
   .card {
@@ -547,7 +494,6 @@
     font-size: 25px;
      
   }
-
  
   #bottom{ 
     transform: rotateX(-90deg);
@@ -559,19 +505,13 @@
     transform: rotateY(90deg);
     left: 140px;
   }
-
-
-
-
  
   /* header texts */
-
 
   .textoHeaderContainer {
     padding: 2vmax 5vmax 2vmax 5vmax;
     margin-top: 0;
-    
-      
+        
   }
 
   .portfolioTitulito {
@@ -580,9 +520,7 @@
     color: #00ff11;
     margin: 0;
   
-  
   }
-
 
   .hache {
     font-size: 8vmax;
@@ -592,10 +530,7 @@
   .nombre {
     font-size: 10vmax;
     display: inline-block; 
-    
-    
-    
-    
+     
   }
 
   .apellido {
@@ -617,6 +552,7 @@
     color: white;
     font-size: 1.9vmax;
     margin-top: 1vmax;
+
   }
 
   .cvBoton {
@@ -627,6 +563,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
+
   }
 }
 
@@ -643,28 +580,21 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
+
   }
 }
-
-
-
 
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:576px) {
-
-   
 
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:543px) {
-   
-    
     
 }
-
 
 /* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
 
@@ -681,16 +611,14 @@
   .nombre {
     font-size: 8.5vmax;
     display: inline-block; 
-    
-    
-    
-    
+     
   }
 
   .apellido {
     font-size: 8vmax;
     
   }
+
 }
 
 /* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
@@ -702,8 +630,7 @@
     width: 250px;
     top: 200px;
     left: -20%;
-    
-    
+     
   } 
     
   .card {
@@ -713,28 +640,25 @@
      
   }
 
- 
 
   #left {
-  /*  right: 125px; */
     transform: rotateY(-90deg);
     right: 180px;
   }
 
   #right {
-    /* left: 125px; */
     transform: rotateY(90deg);
     left: 140px;
+
   }
 
   #top {
-    /* bottom: 125px; */
     transform: rotateX(90deg);
     bottom: 170px;
+
   }
 
   #bottom{
-    /* top: 125px; */
     transform: rotateX(-90deg);
     top: 120px;
     
@@ -750,13 +674,13 @@
   .HeaderContainer {
     height: 130vmax; /* Tamaño completo de la pantalla */
     justify-content: center;
+
   }
 
   .textoHeaderContainer {
     padding: 2vmax 5vmax 2vmax 5vmax;
     margin-top: -15vmax;
-    
-      
+        
   }
     
 }
@@ -775,8 +699,7 @@
     width: 250px;
     top: 200px;
     left: -40%;
-    
-    
+      
   } 
     
 }

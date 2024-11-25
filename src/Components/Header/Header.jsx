@@ -16,7 +16,13 @@ const Header = () => {
         <p className='portfolioTitulito'>Portfolio</p>
         <h1 className='textoPrincipal'><span className='hache'>H</span>{t('headerTexts.saludo')}<br /><span className='nombre'>Leonardo</span><span className='apellido'>Riera</span></h1>
         <p className='profesion'>{t('headerTexts.profesion')} <span className='profesionPropia'>FRONTEND</span>  {t('headerTexts.y')} <span className='profesionPropia'>{t('headerTexts.diseño')}</span> </p>
-        <p className='cvBoton'>{t('headerTexts.descarga')}</p>
+        <a className='cvBoton'
+          href="/CV_LeonardoRiera.pdf"   
+          download="CV_LeonardoRiera.pdf"  
+          
+        >
+          {t('headerTexts.descarga')}
+        </a>
       </div>
 
       <div class="col-sm-12 col-md-6 container">

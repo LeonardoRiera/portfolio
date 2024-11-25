@@ -55,7 +55,14 @@ const Footer = () => {
       
         <div className="col-6 botonContenedorFooter ">
 
-          <p className='cvBoton2'>{t('headerTexts.descarga')}</p>
+          <a className='cvBoton2'
+          href="../../public/CV_LeonardoRiera.pdf"    
+          download="CV-LeonardoRiera.pdf"
+          >         
+            
+            {t('headerTexts.descarga')}
+
+          </a>
 
         </div>
           
